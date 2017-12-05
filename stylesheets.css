@@ -1,0 +1,77 @@
+/* CSS-Document
+Theaterpädagogische Werkstatt: Mein Körper gehört mir!
+
+author: 	Marion Lustig, Mediendesignerin
+web: 		www.lustigonline.de
+
+Colors:
+türkis: #00a1dd
+pink: #ea0e74
+mittelblau: #04678c
+rosa: #f7bfda
+helltürkis: #b9f9ff
+
+*/
+
+
+html, body{ 
+min-height: 101%; 
+margin: 0px;
+padding: 0pt;
+background: url(importe/background.jpg) top repeat-y #00a1dd;
+}
+
+/* mouse over*/
+	a  { color: #04678c; text-decoration: none; }
+	a:hover { color: #ea0e74; text-decoration: none; }
+	
+
+#container {
+    width: 930px;
+    position:absolute;
+    left: 50%;
+    top: 0px;
+    margin: 0 0 0 -465;
+    }
+
+    
+#content {
+   background: url(importe/bg_content.jpg) top repeat-y #b9f9ff;
+   }
+
+
+#sidebar {
+   color: #fff;
+   background: url(importe/bg_menu.jpg) top repeat-y #ea0e74;
+   }
+   
+#sidebar a{
+   color: #fff;
+   }
+   
+#sidebar a:hover{
+   color: #f7bfda;
+   }
+    
+#menu {
+   font-size: 13px;
+   }
+
+
+/* alt*/
+
+#text{
+   color: #5d3838;
+   font-size: 11pt;
+   }
+
+#text a{
+   color: #5d3838; text-decoration: none;
+   font-size: 11pt;
+   }
+    
+#text a:hover {text-decoration: underline; }
+
+.ul {
+margin-bottom: 15px;
+}
