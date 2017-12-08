@@ -12,21 +12,21 @@
 		padding-top:		var(--pimarydif,2%);
 	}
 	
-	.left__abstand--top,
-	.innen__abstand--top {
+	.left__abstand--top{
 		padding-top:		var(--pimarydif,2%);
 	}
 				
 	.details__content{
-		margin:				calc( var(--pimarydif,2%) * 2);
+		margin:				calc( var(--pimarydif,8%) * 2);
 	}
 	
 	.innen__headline--color {
-		color:		#ea0e74;
+		color:		var(--secondarycolor);
 	}
 	
- 
-	
+	.innen__abstand--top {
+		padding-top:		calc( var(--pimarydif,6%) * 4);
+	}
 	
 	hr{
 		color:	var(--pimarycolor);

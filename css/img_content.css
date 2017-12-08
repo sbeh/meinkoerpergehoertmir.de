@@ -63,11 +63,16 @@
 		width:				320px;
 		height:				280px;
 	}
-	
+
+	.innen__img--rahmen7{
+		width:				135px;
+		height:				80px;
+	}
+		
 	.innen__img--galerie{
-		width:120px;
-		height:120px; 		
-		border:2px solid var(--secondrycolor,#ea0e74);
+		width:				120px;
+		height:				120px; 		
+		border:				2px solid var(--secondrycolor,#ea0e74);
 	}
 	
 }
