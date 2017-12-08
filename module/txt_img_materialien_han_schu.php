@@ -16,8 +16,8 @@
 		<div class="img__container--details3">
 			<article>
 			Britta Vollmer hat mit ihrem Buch etwas Wirkungsvolles geschaffen, das M&auml;dchen und Jungen erreicht, informiert und sie ermutigt, nicht allein zu bleiben, wenn ein Geheimnis sie erdr&uuml;ckt.<br>
-		Die Handschuh-H&auml;nde verkörpern in Farbe und Aussehen die Figuren des Hörstücks auf der beiliegenden CD. Sie stellen die Buntheit kindlicher Lebendigkeit dar, greifen Gef&auml;hrdungen auf und geben Kindern Tipps, wie sie sich schützen und helfen können.
-Das Hörstück, eine eindrucksvolle Erg&auml;nzung zum Bilderbuch, erz&auml;hlt von Han Schu, der von seinem Stiefvater Wilt Leder missbraucht wird. Han findet bei seinen FreundInnen Hilfe und sagt das erste Mal Nein.
+		Die Handschuh-H&auml;nde verk&ouml;rpern in Farbe und Aussehen die Figuren des H&ouml;rstücks auf der beiliegenden CD. Sie stellen die Buntheit kindlicher Lebendigkeit dar, greifen Gef&auml;hrdungen auf und geben Kindern Tipps, wie sie sich schützen und helfen k&ouml;nnen.
+Das H&ouml;rstück, eine eindrucksvolle Erg&auml;nzung zum Bilderbuch, erz&auml;hlt von Han Schu, der von seinem Stiefvater Wilt Leder missbraucht wird. Han findet bei seinen FreundInnen Hilfe und sagt das erste Mal Nein.
 		</article>
 		</div>
 	</div>

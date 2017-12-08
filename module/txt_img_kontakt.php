@@ -17,7 +17,7 @@
 		</div>
 		<div class="img__container--details3">
 			<article>
-				Manche Kinder möchten ihre Probleme nicht so gern am Telefon besprechen. Die <b>NummergegenKummer</b> bietet Dir auch eine kostenlose Beratung im Internet an. Damit Du auch hier anonym bleiben kannst, meldest Du Dich in dem passwortgesch&uuml;tzten Bereich an:
+				Manche Kinder m&ouml;chten ihre Probleme nicht so gern am Telefon besprechen. Die <b>NummergegenKummer</b> bietet Dir auch eine kostenlose Beratung im Internet an. Damit Du auch hier anonym bleiben kannst, meldest Du Dich in dem passwortgesch&uuml;tzten Bereich an:
 			</article>
 		</div>
 		<div class="img__container--details">
@@ -114,7 +114,7 @@
 				<b>Copyright</b>
 			</div>
 			<div class="img__container--details3">
-				Jedes Website-Design, jeder Text, alle Grafiken, jede Auswahl bzw. jedes Layout davon Copyright © 2015 theaterp&auml;dagogische werkstatt gGmbH. ALLE RECHTE VORBEHALTEN. Das Kopieren oder die Reproduktion (inklusive des Ausdrucks auf Papier) der gesamten Website bzw. von Teilen dieser Website werden nur zum persönlichen Gebrauch gestattet.
+				Jedes Website-Design, jeder Text, alle Grafiken, jede Auswahl bzw. jedes Layout davon Copyright © 2015 theaterp&auml;dagogische werkstatt gGmbH. ALLE RECHTE VORBEHALTEN. Das Kopieren oder die Reproduktion (inklusive des Ausdrucks auf Papier) der gesamten Website bzw. von Teilen dieser Website werden nur zum pers&ouml;nlichen Gebrauch gestattet.
 			</div>
 		</article>
 	</div>

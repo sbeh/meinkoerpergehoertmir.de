@@ -29,7 +29,7 @@
 	<div class="section__innen">
 		<article>
 			<h2>Verschicke keine Dateien</h2>
-		 	Sende keine Fotos, Videos oder andere persönliche Dateien von dir &uuml;ber Smartphone oder Computer. Was einmal im Internet steht oder &uuml;ber Smartphone im Umlauf ist, lässt sich nie wieder löschen.
+		 	Sende keine Fotos, Videos oder andere pers&ouml;nliche Dateien von dir &uuml;ber Smartphone oder Computer. Was einmal im Internet steht oder &uuml;ber Smartphone im Umlauf ist, lässt sich nie wieder l&ouml;schen.
 		</article>
 	</div>
 </section>
@@ -37,7 +37,7 @@
 	<div class="section__innen">
 		<article>
 			<h2>Triff dich nie allein mit Leuten aus dem Chat</h2>
-			Wenn du dich unbedingt mit jemandem treffen willst, den du &uuml;ber Smartphone oder Computer kennengelernt hast, dann nur zusammen mit einem vertrauten Erwachsenen. W&auml;hle immer einen öffentlichen, belebten Ort f&uuml;r ein Treffen.
+			Wenn du dich unbedingt mit jemandem treffen willst, den du &uuml;ber Smartphone oder Computer kennengelernt hast, dann nur zusammen mit einem vertrauten Erwachsenen. W&auml;hle immer einen &ouml;ffentlichen, belebten Ort f&uuml;r ein Treffen.
 		</article>
 	</div>
 </section>
@@ -45,7 +45,7 @@
 	<div class="section__innen">
 		<article>
 			<h2>Sprich mit einem vertrauten Erwachsenen</h2>
-		 	Vielleicht ist dir etwas Blödes passiert, du hast ein Problem oder auch nur so ein komisches Gef&uuml;hl. Wenn dir irgendetwas merkw&uuml;rdig vorkommt, sprich dar&uuml;ber mit einem Erwachsenen, dem du vertraust.
+		 	Vielleicht ist dir etwas Bl&ouml;des passiert, du hast ein Problem oder auch nur so ein komisches Gef&uuml;hl. Wenn dir irgendetwas merkw&uuml;rdig vorkommt, sprich dar&uuml;ber mit einem Erwachsenen, dem du vertraust.
 		</article>
 	</div>
 </section>
