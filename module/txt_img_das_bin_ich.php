@@ -9,7 +9,7 @@
 			<div class="innen__img--rahmen innen__img--das-bin-ich innen__img--pos innen__img--size1"></div>
 		</div>
 		<div class="img__container--details2">
-			<article><b>Das bin ich - von Kopf bis Fuß</b> von Dagmar Geisler</article>
+			<article><b>Das bin ich - von Kopf bis Fu&szlig;</b> von Dagmar Geisler</article>
 			<article>Selbstvertrauen und Selbstbewusstsein f&uuml;r M&auml;dchen und Jungen ab 7 Jahre</article>
 			<article>Verlag DonnaVita</article>
 		</div>

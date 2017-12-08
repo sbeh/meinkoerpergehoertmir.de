@@ -21,7 +21,7 @@
 	<div class="section__innen">
 		<article>
 			<h2>Bleibe vorsichtig</h2>
-			Du kannst nie ganz sicher sein, mit wem du wirklich chattest. Vielleicht nutzt z. B. gerade der große Bruder das Smartphone oder den Computer deiner Freundin / deines Freundes.
+			Du kannst nie ganz sicher sein, mit wem du wirklich chattest. Vielleicht nutzt z. B. gerade der gro&szlig;e Bruder das Smartphone oder den Computer deiner Freundin / deines Freundes.
 		</article>
 	</div>
 </section>

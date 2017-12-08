@@ -10,7 +10,7 @@
 		</div>
 		<div class="img__container--details3">
 			<article>
-				Katrin und Nina sind beste Freundinnen. Alles teilen sie miteinander – auch die bl&ouml;den Schulaufgaben. Durch Zufall wird Nina Ohrenzeugin einer Auseinandersetzung zwischen Katrin und deren &auml;ltestem Bruder Frank, die sie zutiefst verst&ouml;rt. Sie tr&auml;umt schlecht und ist sicher, dass hier einfach etwas nicht stimmt. Doch Katrin will nicht mit ihr darüber sprechen. Im Gegenteil, sie zieht sich v&ouml;llig zurück und mauert sich ein. Nina qu&auml;lt sich und fragt schließlich ihre Mutter um Rat. Gemeinsam überlegen sie, wie sie Katrin helfen k&ouml;nnen.
+				Katrin und Nina sind beste Freundinnen. Alles teilen sie miteinander – auch die bl&ouml;den Schulaufgaben. Durch Zufall wird Nina Ohrenzeugin einer Auseinandersetzung zwischen Katrin und deren &auml;ltestem Bruder Frank, die sie zutiefst verst&ouml;rt. Sie tr&auml;umt schlecht und ist sicher, dass hier einfach etwas nicht stimmt. Doch Katrin will nicht mit ihr darüber sprechen. Im Gegenteil, sie zieht sich v&ouml;llig zurück und mauert sich ein. Nina qu&auml;lt sich und fragt schlie&szlig;lich ihre Mutter um Rat. Gemeinsam überlegen sie, wie sie Katrin helfen k&ouml;nnen.
 			</article>
 		</div>
 	</div>

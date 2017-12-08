@@ -55,7 +55,7 @@
 	<div class="section__innen">
 		<article>
 			<div class="img__container--details3 ">
-				<b>Vertretungsberechtigte Gesch&auml;ftsführung und inhaltlich verantwortlich gem&auml;ß § 6 Abs.1 MDStV und § 8 Abs.1 TDG</b>
+				<b>Vertretungsberechtigte Gesch&auml;ftsführung und inhaltlich verantwortlich gem&auml;&szlig; § 6 Abs.1 MDStV und § 8 Abs.1 TDG</b>
 			</div>
 			<div class="img__container--details3"> 		
 				Anna Pallas, Reinhard Gesse
