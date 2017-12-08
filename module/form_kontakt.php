@@ -8,7 +8,7 @@
 				<input class="input" placeholder="Trage hier deine E-Mail ein." name="E-Mail" tabindex="2" type="text"/>
 				<label class="label">Schule:</label>
 				<input class="input" placeholder="Trage hier deine Schule ein." name="Schule" tabindex="3" type="text"/>
-				<label class="label">Für:</label>
+				<label class="label">F&uuml;r:</label>
 				<input class="input" placeholder="Wer soll deine Nachricht lesen?" name="Für" tabindex="4" type="text"/>
 				<label class="label">Nachricht:</label>
 				<textarea name="Nachricht" rows="9" tabindex="5" class="textarea" placeholder="Was magst du uns mitteilen?"></textarea>
@@ -22,7 +22,7 @@
 			<div class="innen__img--rahmen5 innen__img--kontakt img__pos--right3"></div>
 			<div class="innen__img--rahmen5 img__pos--right3 details__kontaktform--text">
 			<article>
-				Bitte nennt uns eure E-Mail-Adresse, damit wir euch antworten können.
+				Bitte nennt uns eure E-Mail-Adresse, damit wir euch antworten k$ouml;nnen.
 			<article>
 			</div>			
 		</div>	

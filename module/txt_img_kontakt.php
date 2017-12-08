@@ -32,7 +32,7 @@
 	<div class="section__innen">
 		<hr>
 		<article><b>IMPRESSUM</b></article> 		
-		<article><b>theaterpädagogische werkstatt gGmbH</b></article>
+		<article><b>theaterp&auml;dagogische werkstatt gGmbH</b></article>
 	
 		<div class="img__container">
 			<div class="img__container--details">
@@ -55,7 +55,7 @@
 	<div class="section__innen">
 		<article>
 			<div class="img__container--details3 ">
-				<b>Vertretungsberechtigte Geschäftsführung und inhaltlich verantwortlich gemäß § 6 Abs.1 MDStV und § 8 Abs.1 TDG</b>
+				<b>Vertretungsberechtigte Gesch&auml;ftsführung und inhaltlich verantwortlich gem&auml;ß § 6 Abs.1 MDStV und § 8 Abs.1 TDG</b>
 			</div>
 			<div class="img__container--details3"> 		
 				Anna Pallas, Reinhard Gesse
@@ -114,7 +114,7 @@
 				<b>Copyright</b>
 			</div>
 			<div class="img__container--details3">
-				Jedes Website-Design, jeder Text, alle Grafiken, jede Auswahl bzw. jedes Layout davon Copyright © 2015 theaterpädagogische werkstatt gGmbH. ALLE RECHTE VORBEHALTEN. Das Kopieren oder die Reproduktion (inklusive des Ausdrucks auf Papier) der gesamten Website bzw. von Teilen dieser Website werden nur zum persönlichen Gebrauch gestattet.
+				Jedes Website-Design, jeder Text, alle Grafiken, jede Auswahl bzw. jedes Layout davon Copyright © 2015 theaterp&auml;dagogische werkstatt gGmbH. ALLE RECHTE VORBEHALTEN. Das Kopieren oder die Reproduktion (inklusive des Ausdrucks auf Papier) der gesamten Website bzw. von Teilen dieser Website werden nur zum persönlichen Gebrauch gestattet.
 			</div>
 		</article>
 	</div>
@@ -123,7 +123,7 @@
 <section class="section">
 	<div class="section__innen">
 		<article>
-			© <?php echo date('Y'); ?> theaterpädagogische werkstatt gGmbH
+			© <?php echo date('Y'); ?> theaterp&auml;dagogische werkstatt gGmbH
 		</article>
 	</div>
 </section>		

@@ -10,12 +10,12 @@
 		</div>
 		<div class="img__container--details2">
 			<article><b>Das bin ich - von Kopf bis Fuß</b> von Dagmar Geisler</article>
-			<article>Selbstvertrauen und Selbstbewusstsein für Mädchen und Jungen ab 7 Jahre</article>
+			<article>Selbstvertrauen und Selbstbewusstsein für M&auml;dchen und Jungen ab 7 Jahre</article>
 			<article>Verlag DonnaVita</article>
 		</div>
 		<div class="img__container--details3">
 			<article>
-				In kleinen „gut verdaulichen“ Sequenzen geht es um Jungen- und Mädchenrollen, ums Ja- und Neinsagen, ums wachsen und sich verändern, um die Pubertät, um Verliebtsein, Sexualität und ums Kinderkriegen, um Kinderrechte, Lebensentwürfe, Ideen und Wünsche. Die Themen sind knapp aber anschaulich behandelt und eignen sich als Einstieg. 
+				In kleinen „gut verdaulichen“ Sequenzen geht es um Jungen- und M&auml;dchenrollen, ums Ja- und Neinsagen, ums wachsen und sich ver&auml;ndern, um die Pubert&auml;t, um Verliebtsein, Sexualit&auml;t und ums Kinderkriegen, um Kinderrechte, Lebensentwürfe, Ideen und Wünsche. Die Themen sind knapp aber anschaulich behandelt und eignen sich als Einstieg. 
 			</article>
 		</div>
 	</div>

@@ -11,11 +11,11 @@
 		<div class="img__container--details2">
 			<article><b>Einfach irre!</b> von Robie H. Harris</article>
 			<article>Medienkombination mit Begleitmaterial und Audio-CD von 7-12 Jahren</article>
-			<article>Bundesverein zur Prävention (Hg.)</article>
+			<article>Bundesverein zur Pr&auml;vention (Hg.)</article>
 		</div>
 		<div class="img__container--details3">
 			<article>
-				Das bewährte Team hat ein offenes Buch für Kinder zwischen sieben und zwölf Jahren gemacht. Wenn also die Jüngeren bisher neidisch waren, dass sie nicht so tolle Aufklärungslektüre hatten - das ist jetzt vorbei.<br>
+				Das bew&auml;hrte Team hat ein offenes Buch für Kinder zwischen sieben und zwölf Jahren gemacht. Wenn also die Jüngeren bisher neidisch waren, dass sie nicht so tolle Aufkl&auml;rungslektüre hatten - das ist jetzt vorbei.<br>
 				Ein Buch über Eier und Spermien, Geburt, Babys und Zusammenleben.
 			</article>
 		</div>

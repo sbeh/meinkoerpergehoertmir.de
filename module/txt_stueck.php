@@ -26,7 +26,7 @@
 			<div class="details__content">
 				<div class="innen__img--rahmen1 innen__img--stueck3"></div>
 				<article> 
-				Also denk daran, nur du weißt, wie dein Körper fühlt. Es ist nicht leicht Nein zu sagen, aber wenn du ein Nein Gefühl hast, geh zu jemanden und erzähle es ihm.
+				Also denk daran, nur du weißt, wie dein Körper fühlt. Es ist nicht leicht Nein zu sagen, aber wenn du ein Nein Gefühl hast, geh zu jemanden und erz&auml;hle es ihm.
 				</article>
 			</div>
 		</div>
@@ -73,7 +73,7 @@
 1. Habe ich ein Ja- oder ein Nein-Gefühl?<br>
 2. Weiß jemand, wo ich bin?<br>
 3. Bekomme ich Hilfe, wenn ich Hilfe brauche?<br>
-Und wenn du nun auf eine dieser drei Fragen mit Nein antwortest, dann hast du auch das Recht Nein zu sagen und gehe zu einem Menschen deines Vertrauens und erzähle es ihm.
+Und wenn du nun auf eine dieser drei Fragen mit Nein antwortest, dann hast du auch das Recht Nein zu sagen und gehe zu einem Menschen deines Vertrauens und erz&auml;hle es ihm.
 				</article>
 			</div>
 		</div>
@@ -100,7 +100,7 @@ Und wenn du nun auf eine dieser drei Fragen mit Nein antwortest, dann hast du au
 			<div class="details__content">
 				<div class="innen__img--rahmen1 innen__img--stueck8"></div>
 				<article>
-					Nicht jeder Erwachsene kann den Kindern die Hilfe geben, die sie tatsächlich benötigen
+					Nicht jeder Erwachsene kann den Kindern die Hilfe geben, die sie tats&auml;chlich benötigen
 				<article>
 			</div>
 		</div>
