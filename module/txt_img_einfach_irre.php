@@ -15,7 +15,7 @@
 		</div>
 		<div class="img__container--details3">
 			<article>
-				Das bew&auml;hrte Team hat ein offenes Buch für Kinder zwischen sieben und zwölf Jahren gemacht. Wenn also die Jüngeren bisher neidisch waren, dass sie nicht so tolle Aufkl&auml;rungslektüre hatten - das ist jetzt vorbei.<br>
+				Das bew&auml;hrte Team hat ein offenes Buch f&uuml;r Kinder zwischen sieben und zwölf Jahren gemacht. Wenn also die Jüngeren bisher neidisch waren, dass sie nicht so tolle Aufkl&auml;rungslektüre hatten - das ist jetzt vorbei.<br>
 				Ein Buch über Eier und Spermien, Geburt, Babys und Zusammenleben.
 			</article>
 		</div>

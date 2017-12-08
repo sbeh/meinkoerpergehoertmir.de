@@ -5,7 +5,7 @@
 		</div>
 		<div class="img__container--details2">
 			<article><b>Katrins Geheimnis</b> von Marion Mebes und Esther Klees</article>
-			<article>Eine Geschichte über sexuelle Übergriffe unter Kindern. Bilderbuch mit Fachinformation &amp; Begleitmaterial ab 7 Jahre</article>
+			<article>Eine Geschichte &uuml;ber sexuelle Übergriffe unter Kindern. Bilderbuch mit Fachinformation &amp; Begleitmaterial ab 7 Jahre</article>
 			<article>Verlag mebes &amp; noack</article>
 		</div>
 		<div class="img__container--details3">

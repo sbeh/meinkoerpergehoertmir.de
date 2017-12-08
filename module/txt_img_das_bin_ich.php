@@ -10,7 +10,7 @@
 		</div>
 		<div class="img__container--details2">
 			<article><b>Das bin ich - von Kopf bis Fuß</b> von Dagmar Geisler</article>
-			<article>Selbstvertrauen und Selbstbewusstsein für M&auml;dchen und Jungen ab 7 Jahre</article>
+			<article>Selbstvertrauen und Selbstbewusstsein f&uuml;r M&auml;dchen und Jungen ab 7 Jahre</article>
 			<article>Verlag DonnaVita</article>
 		</div>
 		<div class="img__container--details3">

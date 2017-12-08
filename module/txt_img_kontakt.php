@@ -17,7 +17,7 @@
 		</div>
 		<div class="img__container--details3">
 			<article>
-				Manche Kinder möchten ihre Probleme nicht so gern am Telefon besprechen. Die <b>NummergegenKummer</b> bietet Dir auch eine kostenlose Beratung im Internet an. Damit Du auch hier anonym bleiben kannst, meldest Du Dich in dem passwortgeschützten Bereich an:
+				Manche Kinder möchten ihre Probleme nicht so gern am Telefon besprechen. Die <b>NummergegenKummer</b> bietet Dir auch eine kostenlose Beratung im Internet an. Damit Du auch hier anonym bleiben kannst, meldest Du Dich in dem passwortgesch&uuml;tzten Bereich an:
 			</article>
 		</div>
 		<div class="img__container--details">
