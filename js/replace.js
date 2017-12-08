@@ -1,16 +1,21 @@
+'use strict'
+
 function replaceElem(elem)
 {
-    //var elem = document.getElementById(id);
-    var x = new XMLHttpRequest();
+    var x = new XMLHttpRequest()
 	x.onreadystatechange = function () {
-		if (x.readyState === XMLHttpRequest.DONE && x.status === 200)
-            elem.outerHTML = x.response;
+		if (x.readyState === XMLHttpRequest.DONE && x.status === 200) {
+            elem.outerHTML = x.response
+            handleReplace()
+        }
 	}
-	x.open('GET', 'module/' + elem.textContent + '.php');
-	x.send();
+	x.open('GET', 'module/' + elem.textContent + '.html')
+	x.send()
 }
 
-document.addEventListener('load', function() {
+function handleReplace() {
     for(var elem of document.getElementsByTagName('replace'))
-        replaceElem(elem);
-}, true);
+        replaceElem(elem)
+}
+
+document.addEventListener('load', handleReplace, true)
