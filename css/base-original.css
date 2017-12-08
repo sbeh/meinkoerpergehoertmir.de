@@ -1,0 +1,467 @@
+@charset "UTF-8";
+@media all{
+
+	html,body {
+		margin:				0;
+		padding:			0;
+		background-color:	#00a1dd;
+	}
+
+	article{
+		font-size:		120%;
+		text-align:		left;
+		padding-top:	2%;
+	}
+	
+	.wrapper{
+		display:flex;
+		flex-flow: row wrap;
+		background: url('./img/bg_content.jpg');
+		background-size: contain;
+		margin-left:	3%;
+		margin-right:	3%;
+	}
+	
+	.wrapper__left{
+		width:20%;
+		background: url('./img/bg_menu.jpg');
+		background-size: contain;
+		color:	#ffffff;
+		margin-left:2%;
+	}	
+
+	.wrapper__right{
+		width:78%;
+	}	
+	
+	nav{
+		font-size: 120%;
+		line-height:220%;
+		color:red;
+		cursor: pointer;
+	}
+
+	.section{
+		padding-top:	2%;
+		padding-bottom:	2%;
+		width:			100%;
+	}
+	
+	.section__innen,
+	.section__image--pos{
+		text-align:		center;
+		margin-left:	5%;
+		margin-right:	5%;		
+	}
+
+	.section__innen--middle{
+		text-align:		center;
+	}
+	
+	nav ul{
+		margin:0;
+		padding:0;
+	}
+
+	nav ul li{
+		list-style-type: none;
+	}
+	
+	.nav__links{ 
+		border-bottom:1px solid white; 
+	}
+
+
+	.nav__links span{
+		margin-left:5%;
+		color:	#ffffff;
+	}
+	
+	a:link{
+		text-decoration:none;
+	}
+	
+	.wrapper__right a:link,
+	.wrapper__right a:active,
+	.wrapper__right a:visited{
+		color:	#04678c;
+	}
+	
+	.wrapper__right a:hover{
+		color:	#ea0e74;
+	}	
+	
+	.innen__button--position{
+		text-align:right;
+		margin-right:2%
+	}
+	
+	.innen__image--position{
+		margin-left:2%; 
+		text-align:left;
+	}
+	
+	.left__abstand--top,
+	.innen__abstand--top {
+		padding-top:	6%;
+	}
+	
+	.innen__img--rahmen{
+		margin-left: 		auto;
+		margin-right: 		auto;
+		width:				20rem;
+		height:				3.5rem;
+		background-size:	contain;
+		background-repeat:	no-repeat;
+	}
+	
+	.innen__img--spass{
+		background-image:url('./img/viel-spass.jpg');
+	}
+
+	.innen__img--rahmen1{
+		margin-left: 		auto;
+		margin-right: 		auto;
+		width:				219px;
+		height:				225px;
+		background-size:	contain;
+		background-repeat:	no-repeat;
+	}	
+	
+	.innen__img--comic1{
+		background-image:url('./img/start_comic1.png');
+	}
+	
+	.innen__img--comic2{
+		background-image:url('./img/start_comic2.png');
+	}
+	
+	.innen__img--comic3{
+		background-image:url('./img/start_comic3.png');
+	}
+	
+	.article__left--item{
+		line-height: 2.5rem;
+		text-align:center;
+	}
+	
+	.left__img--rahmen{
+		margin-left: 		auto;
+		margin-right: 		auto;
+		width:				7rem;
+		height:				7rem;
+		background-size:	contain;
+		background-repeat:	no-repeat;	
+	}
+	.left__img--rahmen1{
+		margin-left: 		auto;
+		margin-right: 		auto;
+		width:				7rem;
+		height:				4rem;	
+		background-size:	contain;
+		background-repeat:	no-repeat;	
+	}
+	
+	.innen__img--rahmen2{
+		margin-left: 		auto;
+		margin-right: 		auto;
+		width:				7rem;
+		height:				2rem;	
+		background-size:	contain;
+		background-repeat:	no-repeat;	
+	}	
+	
+	.left__img--tpw{
+		background-image:url('./img/tpw_logo.jpg');	
+	}
+	.left__img--nummer-gegen-kummer{
+		background-image:url('./img/nummer-gegen-kummer.jpg');	
+	}
+	
+	.left__abstand--top1 a:link{
+		color:	white;
+	}
+	
+	.left__abstand--top1{
+		margin-top:12%
+	}
+
+	.innen__img--stueck1{
+		background-image:url('./img/stueck1.jpg');
+	}
+
+	.innen__img--‌stueck2{
+		background-image:url('./img/‌stueck2.jpg');
+	}
+
+	.innen__img--stueck3{
+		background-image:url('./img/stueck3.jpg');
+	}	
+
+	.img__container {
+	  display: -webkit-box;
+	  display: -moz-box;
+	  display: -ms-flexbox;
+	  display: -webkit-flex;
+	  display: flex;
+	  flex-flow: row wrap;
+	}
+
+	.img__container--details {
+		width: 33%;
+	}
+
+	.img__container--details1 {
+		width: 25%;
+	}	
+
+	.img__container--details2 {
+		width: 66%;
+	}	
+
+	.img__container--details3 {
+		width: 100%;
+	}	
+
+	.img__container--details4 {
+		width: 50%;
+	}
+	
+	.details__content{
+		margin:	4%;
+	}
+	
+	.innen__img--stueck4{
+		background-image:url('./img/stueck4.jpg');
+	}
+
+	.innen__img--‌‌stueck5{
+		background-image:url('./img/‌stueck5.jpg');
+	}
+
+	.innen__img--stueck6{
+		background-image:url('./img/stueck6.jpg');
+	}
+
+	.innen__img--chatregeln{
+		background-image:url('./img/chatregeln.jpg');
+	}
+
+	.innen__img--stueck7{
+		background-image:url('./img/stueck7.jpg');
+	}
+
+	.innen__img--stueck8{
+		background-image:url('./img/stueck8.jpg');
+	}
+
+	.innen__img--stueck9{
+		background-image:url('./img/stueck9.jpg');
+	}
+
+	.innen__img--koerpersong{
+		background-image:url('./img/koerpersong.jpg');
+		width: 	46rem;
+		height:	60rem;
+	}
+
+	.innen__img--songs{
+		background-image:url('./img/songs.jpg');
+	}
+
+	.innen__img--pos {
+		margin-left:			0;
+		background-position: 	0 1rem;
+	}	
+
+	.innen__img--size1{
+		width:					150px;
+		height:					190px;
+	}
+
+	.innen__img--size2{
+		width:					350px;
+		height:					300px;
+	}	
+	.img__pos--right{
+		width:	319px;
+		position:relative; 
+		right:	-260px;
+	}
+
+	.innen__img--size3{
+		width:					150px;
+		height:					110px;
+	}	
+
+	
+	.innen__img--katrins_geheimnis{
+		background-image:url('./img/katrins_geheimnis.jpg');
+	}
+
+	.innen__img--han_schu{
+		background-image:url('./img/han_schu.jpg');
+	}
+
+	.innen__img--das-bin-ich{
+		background-image:url('./img/das-bin-ich.jpg');
+	}
+
+	.innen__img--einfach_irre{
+		background-image:url('./img/einfach_irre.jpg');
+	}
+	
+	.innen__img--materialien{
+		background-image:url('./img/materialien.jpg');	
+	}
+	
+	.innen__img--links{
+		background-image:url('./img/links.jpg');	
+	}
+	
+	.innen__img--kontakt{
+		background-image:url('./img/kontakt.jpg');	
+	}	
+	
+	.innen__headline--color {
+		color:		#ea0e74;
+	}
+	
+	.label,
+	.input,
+	.textarea,
+	input[type=submit]{
+		width:		94%;
+		font-size:	120%;
+		text-align:	left;
+		font-family:	inherit;
+		::-webkit-input-placeholder { color:#f00;font-family;arial; }
+		::-moz-placeholder { color:#f00;font-family;arial; } /* firefox 19+ */
+		:-ms-input-placeholder { color:#f00;font-family;arial; } /* ie */
+	}
+
+	.textarea,
+	.input{
+		padding:		2%;
+		margin-bottom:	3%;
+		font-size:	inherit;
+	}
+	
+	.label{
+		display:		flex;
+		padding-left:	2%;
+	}
+
+
+	
+	.innen__img--nummer-gegen-kummer {
+		background-image: url('./img/nummer-gegen-kummer.jpg');
+	}
+	
+	.innen__img--e-mail-beratung {
+		background-image: url('./img/e-mail-beratung.png');
+	}
+	
+	hr{
+		color:	#00a1dd;
+	}
+	
+	input[type=submit] {
+		text-align:		center;
+	}
+}
+
+
+@media (min-width: 950px) {
+	.img_banner--border{
+		border: solid 10px grey;
+	}
+	.content__td--left {
+		width:20%;    
+	}
+
+	.content__td--right{
+		width: 80%;
+	}
+	
+	
+}
+
+@media (min-width: 450px) and (max-width: 950px) {
+	.img_banner--border{
+		border: solid 10px blue;
+	}
+	.content__td--left {
+		width:20%;    
+	}
+
+	.content__td--right{
+		width: 80%;
+	}
+}
+
+@media (max-width: 450px) {
+
+	.img_banner--border{
+		border: solid 10px red;
+	}
+	
+	nav{
+		font-size: 140%;
+		line-height:250%;
+		color:red;
+	}
+	
+	.content__td--left ,
+	.content__td--right{
+		width: 100%;
+		display: flex;     
+		flex-flow: row wrap;
+	}
+	
+	.left__section--img{
+		display: flex;     
+		flex-flow: column;	
+		//width: 50%;
+	}
+
+	.section__headline{
+		display: inline;
+		width:100%;
+	}
+	
+	.innen__nav-width{ width:100%}
+	
+	.innen__button--prio2,
+	.innen__image--prio2{
+		width:40%;
+		size: contain;
+	}
+	
+	article{
+		font-size:120%;
+		text-align:left;
+		margin-left:3%;
+		margin-right:3%;
+		margin-top:5%;
+		margin-bottom:5%;
+	}
+}
+
+
+
+/**
+ * Define the space for each grid item by declaring the grid
+ * on the grid container.
+ */
+#grid {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto 1fr auto;
+}
+
+#title    { grid-column: 1; grid-row: 1; }
+#score    { grid-column: 1; grid-row: 3; }
+#stats    { grid-column: 1; grid-row: 2; align-self: start; }
+#board    { grid-column: 2; grid-row: 1 / span 2; }
+#controls { grid-column: 2; grid-row: 3; justify-self: center; }

@@ -1,0 +1,49 @@
+@media all{
+
+	html,body {
+		margin:				0;
+		padding:			0;
+		background-color:	var(--pimarycolor,#00a1dd);
+	}
+
+	article{
+		font-size:			120%;
+		text-align:			left;
+		padding-top:		var(--pimarydif,2%);
+	}
+	
+	.left__abstand--top,
+	.innen__abstand--top {
+		padding-top:		var(--pimarydif,2%);
+	}
+				
+	.details__content{
+		margin:				calc( var(--pimarydif,2%) * 2);
+	}
+	
+	.innen__headline--color {
+		color:		#ea0e74;
+	}
+	
+ 
+	
+	
+	hr{
+		color:	var(--pimarycolor);
+	}
+		
+}
+
+
+@media (min-width: 950px) {
+
+}
+
+@media (min-width: 450px) and (max-width: 950px) {
+
+}
+
+@media (max-width: 450px) {
+
+
+}

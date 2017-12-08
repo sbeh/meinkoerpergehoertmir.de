@@ -1,0 +1,56 @@
+@media all{
+	.label,
+	.input,
+	.textarea,
+	input[type=submit]{
+		width:		94%;
+		font-size:	120%;
+		text-align:	left;
+		font-family:	inherit;
+		::-webkit-input-placeholder { color:#f00;font-family;arial; }
+		::-moz-placeholder { color:#f00;font-family;arial; } /* firefox 19+ */
+		:-ms-input-placeholder { color:#f00;font-family;arial; } /* ie */
+	}
+
+	.textarea,
+	.input{
+		padding:		2%;
+		margin-bottom:	3%;
+		font-size:	inherit;
+	}
+	
+	.label{
+		display:		flex;
+		padding-left:	2%;
+	}
+
+	input[type=submit] {
+		text-align:		center;
+	}
+	
+}
+
+
+@media (min-width: 950px) {
+	
+}
+
+@media (min-width: 450px) and (max-width: 950px) {
+	
+}
+
+@media (max-width: 450px) {
+	input[type="submit"]{
+		padding-top:		2%;
+		padding-bottom:		2%;
+	}
+	
+	.details__kontaktform--height{
+		height:		300px
+	}
+	
+	.details__kontaktform--text{
+		display: 	inline;
+		width:		100%;
+	}
+}

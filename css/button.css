@@ -1,0 +1,27 @@
+@media all{
+
+	button[type=button]{
+		background-color:	var(--pimarycolor);
+		width:				100%;
+		font-size: 			80%;
+		line-height: 		300%;
+		border:				0;
+		border-bottom:		1px solid var(--fourthcolor);
+		color:				var(--fourthcolor);
+	}
+	
+}
+
+
+@media (min-width: 950px) {
+	
+}
+
+@media (min-width: 450px) and (max-width: 950px) {
+	
+}
+
+@media (max-width: 450px) {
+
+	
+}

@@ -1,0 +1,30 @@
+<section class="section">
+	<div class="section__innen img__container">
+		<div class="img__container--details4">
+			<form action="http://www.tpw-osnabrueck.de/cgi-bin/formmailer.pl" method="post" name="Kontaktformular">
+				<label class="label">Dein Name:</label>
+				<input class="input" placeholder="Trage hier deinen Namen ein." name="Name" tabindex="1" type="text"/>
+				<label class="label">E-Mail:</label>
+				<input class="input" placeholder="Trage hier deine E-Mail ein." name="E-Mail" tabindex="2" type="text"/>
+				<label class="label">Schule:</label>
+				<input class="input" placeholder="Trage hier deine Schule ein." name="Schule" tabindex="3" type="text"/>
+				<label class="label">Für:</label>
+				<input class="input" placeholder="Wer soll deine Nachricht lesen?" name="Für" tabindex="4" type="text"/>
+				<label class="label">Nachricht:</label>
+				<textarea name="Nachricht" rows="9" tabindex="5" class="textarea" placeholder="Was magst du uns mitteilen?"></textarea>
+				<input name="Senden" value="Senden" tabindex="6" type="submit">
+				<input name="recipient" value="kids@tpw-osnabrueck.de" type="hidden">
+				<input name="subject" value="Nachricht Website-Formular Kids" type="hidden">
+				<input name="redirect" value="http://www.tpw-osnabrueck.de/bestaetigung.html" type="hidden">
+			</form>
+		</div>
+		<div class="img__container--details4 details__kontaktform--height">
+			<div class="innen__img--rahmen5 innen__img--kontakt img__pos--right3"></div>
+			<div class="innen__img--rahmen5 img__pos--right3 details__kontaktform--text">
+			<article>
+				Bitte nennt uns eure E-Mail-Adresse, damit wir euch antworten können.
+			<article>
+			</div>			
+		</div>	
+	</div>
+</section>

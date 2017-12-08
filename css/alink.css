@@ -1,0 +1,34 @@
+@media all{
+	
+	a:link{
+		text-decoration:none;
+	}
+
+	.wrapper__right a:link,
+	.wrapper__right a:active,
+	.wrapper__right a:visited{
+		color:	var(--thirdcolor,#04678c);
+	}
+	
+	.wrapper__right a:hover{
+		color:	var(--secondarycolor,#ea0e74);
+	}	
+	
+	.left__abstand--top1 a:link{
+		color:	var(----fourthcolor,white);
+	}
+	
+}
+
+
+@media (min-width: 950px) {
+	
+}
+
+@media (min-width: 450px) and (max-width: 950px) {
+	
+}
+
+@media (max-width: 450px) {
+
+}
