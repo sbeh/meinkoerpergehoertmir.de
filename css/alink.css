@@ -15,9 +15,24 @@
 	}	
 	
 	.left__abstand--top1 a:link{
-		color:	var(----fourthcolor,white);
+		color:	var(--fourthcolor,white);
 	}
 	
+	.galerie a,
+	.galerie a:hover { 
+		margin-left:15px; 
+		margin-right:15px; 
+		margin-bottom:15px; 
+	}
+
+	.galerie a { 
+		border: 2px solid var(--secondarycolor); 
+	}
+
+	.galerie a:hover { 
+		border: 2px solid var(--thirdcolor); 
+	}
+
 }
 
 

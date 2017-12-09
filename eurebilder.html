@@ -1,15 +1,63 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlms="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+
 	<head>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<script src='js/init.js'></script>
+		<script src='js/init.js'></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+		<script type="text/javascript">
+			$(function() {
+				$('#gallery a').lightBox();
+			});
+		</script>
+		
+		<style type="text/css"></style>
+			
 	</head>
 	<body>
-
 		<div class="wrapper">
-			<replace>wrapper_left</replace>
-			<replace>wrapper_right_eurebilder</replace>
-		</div>
+			<div id="content" style="display:flex;">
 
+				<replace>wrapper_left</replace>			
+				<div class="wrapper__right">
+
+					<replace>img_mein_koerper_gehoert_mir</replace>
+					
+					<section class="section galerie" id="gallery">
+						<div class="section__innen img__container">
+										
+						<script>
+						for(i=1;i<=9;i++)
+						{
+							var text = '<a href="img/kinderbilder/kinder0'+ i +'.jpg">'
+							text = text + '<div class="img__container--details5">'
+							text = text	+ '<div class="details__content innen__img--galerie" style="background-image:url(\'./img/kinderbilder/thumb_kinder0' + i + '.jpg\');"></div>'
+							text = text	+ '</div></a>'
+										
+							document.write(text)
+						}
+
+						for(z=0;z<=8;z++)
+						{
+							var text1 = '<a href="img/kinderbilder/kinder1'+ z +'.jpg">'
+							text1 = text1 + '<div class="img__container--details5">'
+							text1 = text1	+ '<div class="details__content innen__img--galerie" style="background-image:url(\'./img/kinderbilder/thumb_kinder1' + z + '.jpg\');"></div>'
+							text1 = text1	+ '</div></a>'
+									
+							document.write(text1)
+						}										
+						</script> 
+
+						</div>
+					</section>
+		
+				</div>
+			</div>
+		</div>
 	</body>
+	
 </html>
+
+
+
