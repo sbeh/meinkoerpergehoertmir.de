@@ -33,8 +33,10 @@
 		visibility:		visible;
 	}
 
+
 	.button__verstecken,
-	.button__anzeigen--hidden{
+	.button__anzeigen{
+		visibility:		hidden;
 		display:		none;
 	}	
 }

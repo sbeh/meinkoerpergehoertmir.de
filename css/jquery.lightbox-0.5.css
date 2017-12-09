@@ -26,6 +26,7 @@
 	z-index: 90;
 	width: 870px;
 	height: 120px;
+	overflow: scroll;
 }
 #jquery-lightbox {
 	position: absolute;

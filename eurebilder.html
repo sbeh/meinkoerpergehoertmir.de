@@ -17,7 +17,7 @@
 	</head>
 	<body>
 		<div class="wrapper">
-			<div id="content" style="display:flex;">
+			<div id="content">
 
 				<replace>wrapper_left</replace>			
 				<div class="wrapper__right">
@@ -27,27 +27,26 @@
 					<section class="section galerie" id="gallery">
 						<div class="section__innen img__container">
 										
-						<script>
-						for(i=1;i<=9;i++)
-						{
-							var text = '<a href="img/kinderbilder/kinder0'+ i +'.jpg">'
-							text = text + '<div class="img__container--details5">'
-							text = text	+ '<div class="details__content innen__img--galerie" style="background-image:url(\'./img/kinderbilder/thumb_kinder0' + i + '.jpg\');"></div>'
-							text = text	+ '</div></a>'
+							<script>
+							for(i=1;i<=9;i++)
+							{
+								var text = '<a href="img/kinderbilder/kinder0'+ i +'.jpg">'
+								text = text + '<div class="img__container--details5">'
+								text = text	+ '<div class="details__content innen__img--galerie" style="background-image:url(\'./img/kinderbilder/thumb_kinder0' + i + '.jpg\');"></div>'
+								text = text	+ '</div></a>'
+														
+								document.write(text)
+							}
+							for(z=0;z<=8;z++)
+							{
+								var text1 = '<a href="img/kinderbilder/kinder1'+ z +'.jpg">'
+								text1 = text1 + '<div class="img__container--details5">'
+								text1 = text1	+ '<div class="details__content innen__img--galerie" style="background-image:url(\'./img/kinderbilder/thumb_kinder1' + z + '.jpg\');"></div>'
+								text1 = text1	+ '</div></a>'
 										
-							document.write(text)
-						}
-
-						for(z=0;z<=8;z++)
-						{
-							var text1 = '<a href="img/kinderbilder/kinder1'+ z +'.jpg">'
-							text1 = text1 + '<div class="img__container--details5">'
-							text1 = text1	+ '<div class="details__content innen__img--galerie" style="background-image:url(\'./img/kinderbilder/thumb_kinder1' + z + '.jpg\');"></div>'
-							text1 = text1	+ '</div></a>'
-									
-							document.write(text1)
-						}										
-						</script> 
+								document.write(text1)
+							}										
+							</script>
 
 						</div>
 					</section>
