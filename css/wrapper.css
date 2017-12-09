@@ -33,6 +33,13 @@
 
 @media (min-width: 450px) and (max-width: 950px) {
 	
+	.wrapper__left,
+	.wrapper__right {
+		width:		100%
+	}
+	.left__difference--left{
+		margin-left:	0;
+	}
 }
 
 @media (max-width: 450px) {

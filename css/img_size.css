@@ -17,6 +17,9 @@
 	}
 	
 	.innen__img--size{
+			width:			100%;
+			margin-top:		0.8rem;
+			margin-bottom:	0.8rem;
 	}
 	
 	
@@ -32,9 +35,4 @@
 }
 
 @media (max-width: 450px) {
-	.innen__img--size{
-		width:			100%;
-		margin-top:		0.8rem;
-		margin-bottom:	0.8rem;
-	}
 }

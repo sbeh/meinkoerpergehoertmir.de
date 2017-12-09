@@ -83,7 +83,31 @@
 }
 
 @media (min-width: 450px) and (max-width: 950px) {
-	
+
+	.innen__img--rahmen3{
+		width:	170px;
+		height:	54px;
+	}
+
+	.innen__img--rahmen2 {
+		width: 13rem;
+		height: 4rem;
+	}
+
+	.innen__img--rahmen4 {
+		width: 280px;
+		height: 210px;
+	}
+
+	.innen__img--rahmen6 {
+		width: 24rem;
+		height: 32rem;
+	}
+
+	.innen__img--rahmen5{
+		width:	160px;
+		height:	120px;
+	}
 }
 
 @media (max-width: 450px) {

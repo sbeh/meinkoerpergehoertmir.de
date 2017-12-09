@@ -41,7 +41,12 @@
 }
 
 @media (min-width: 450px) and (max-width: 950px) {
-	
+	.galerie a,
+	.galerie a:hover { 
+		margin-left:	var(--secondarydif); 
+		margin-right:	var(--secondarydif); 
+		margin-bottom:	var(--secondarydif);  
+	}
 }
 
 @media (max-width: 450px) {
