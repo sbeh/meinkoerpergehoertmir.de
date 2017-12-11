@@ -13,7 +13,7 @@
 		width:				20%;
 		background: 		url('../img/bg_menu.jpg');
 		background-size: 	contain;
-		color:				var(----fourthcolor,#ffffff);
+		color:				var(--fourthcolor,#ffffff);
 	}	
 
 	.left__difference--left{
