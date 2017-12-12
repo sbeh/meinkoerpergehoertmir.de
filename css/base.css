@@ -3,7 +3,7 @@
 	html,body {
 		margin:				0;
 		padding:			0;
-		background-color:	red;//var(--pimarycolor,#00a1dd);
+		background-color:	green;
 	}
 
 	article{
