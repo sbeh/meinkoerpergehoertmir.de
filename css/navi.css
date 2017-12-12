@@ -76,7 +76,7 @@
 	}
 }
 
-@media only screen and (min-device-width : 450px){
+@media only screen and (min-device-width : 300px ) and (max-device-width : 450px){
 	.nav__status,
 	.button__verstecken,
 	.button__anzeigen{
@@ -94,7 +94,7 @@
 	
 	nav {
 		font-size: 		150%;
-		line-height: 	250%;
+		line-height: 		250%;
 	}
 
 	nav ul{
