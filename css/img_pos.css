@@ -18,21 +18,15 @@
 		position:		relative; 
 	}
 
-	.img__pos--right{
-		right:			-243px;
-	}
+	.img__pos--righ{}
 	
-	.img__pos--right1{
-		right:			-320px;
-	}
+	.img__pos--right1{}
 	
 	.img__pos--right2{
 		right:			-343px;
 	}
 
-	.img__pos--right3{
-		right:			-34px;
-	}
+	.img__pos--right3{}
 
 	.img__pos--right4{
 		right:			23px;
@@ -48,18 +42,27 @@
 		text-align:		left;
 	}
 
-	.img__pos--right5{	
-		left:-35px;
+	.img__pos--right5{}
+	
+}
+
+@media (min-width: 901px) and (max-width: 960px),
+@media only screen and (min-device-width : 901px)and (max-device-width : 960px){  
+	.img__pos--right {
+		right:	-70px;
 	}
-	
+}
+
+@media (min-width: 651px) and (max-width: 900px),
+@media only screen and (min-device-width : 651px)and (max-device-width : 900px){  
+	.img__pos--right {
+		right:	-90px;
+	}
 }
 
 
-@media (min-width: 950px) {
-	
-}
-
-@media (min-width: 450px) and (max-width: 950px) {
+@media (min-width: 491px) and (max-width: 650px),
+@media only screen and (min-device-width : 491px)and (max-device-width : 650px){ 
 
 	.left__abstand--top1 {
 		margin-top: var(--pimarydif);
@@ -77,15 +80,16 @@
 	}
 }
 
-@media (max-width: 450px) {
 
+@media (min-width: 451px) and (max-width: 490px),
+@media only screen and (min-device-width : 451px) and (max-device-width : 490px),
+@media (max-width: 450px),
+@media only screen and (min-device-width : 450px){
 	.img__pos--right {
 		right: 0;
 	}
 
-	.img__pos--right1{
-		right: -65px;
-	}	
+	.img__pos--right1{}	
 
 	.img__pos--right5{	
 		left:-0px;

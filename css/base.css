@@ -34,9 +34,17 @@
 		
 }
 
+@media (min-width: 491px),
+@media only screen and (min-device-width : 491px) { 
+	html,body {
+		margin:				0;
+		padding:			0;
+		background-color:	brown;
+	}
+}
 
-@media (min-width: 321px) and (max-width: 950px),
-@media only screen and (min-device-width: 321px) and (max-device-width: 950px)   {
+@media (min-width: 451px) and (max-width: 490px),
+@media only screen and (min-device-width : 451px) and (max-device-width : 490px){ 
 	html,body {
 		margin:				0;
 		padding:			0;
@@ -44,9 +52,8 @@
 	}
 }
 
-
-@media (max-width: 320px),
-@media only screen and (min-device-width : 320px) and (max-device-width : 640px){
+@media (max-width: 450px),
+@media only screen and (min-device-width : 450px){
 	html,body {
 		margin:				0;
 		padding:			0;

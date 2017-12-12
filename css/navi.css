@@ -42,12 +42,20 @@
 }
 
 
-@media (min-width: 950px) {
+@media (min-width: 651px) and (max-width: 900px),
+@media only screen and (min-device-width : 651px)and (max-device-width : 900px){  
+		
+	nav {
+		font-size: 		120%;
+		line-height: 	250%;
+	}
 
 }
 
-@media (min-width: 450px) and (max-width: 950px) {
-
+@media (min-width: 491px) and (max-width: 650px),
+@media only screen and (min-device-width : 491px)and (max-device-width : 650px),
+@media (min-width: 451px) and (max-width: 490px),
+@media only screen and (min-device-width : 451px) and (max-device-width : 490px){ 
 	.nav__status,
 	.button__verstecken,
 	.button__anzeigen{
@@ -73,8 +81,8 @@
 	}
 }
 
-@media (max-width: 450px) {
-
+@media (max-width: 450px),
+@media only screen and (min-device-width : 450px){
 	.nav__status,
 	.button__verstecken,
 	.button__anzeigen{

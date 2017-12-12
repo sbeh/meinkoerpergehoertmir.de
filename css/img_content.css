@@ -78,6 +78,52 @@
 }
 
 
+
+@media (min-width: 901px) and (max-width: 960px),
+@media only screen and (min-device-width : 901px)and (max-device-width : 960px){  
+	
+	.innen__img--rahmen5{
+		width:	90%;
+		height:	40%;
+	}
+
+}
+
+@media (min-width: 651px) and (max-width: 900px),
+@media only screen and (min-device-width : 651px)and (max-device-width : 900px){  
+	.innen__img--rahmen5{
+		width:	90%;
+		height:	30%;
+	}
+}
+
+@media (min-width: 491px) and (max-width: 650px),
+@media only screen and (min-device-width : 491px)and (max-device-width : 650px){ 
+	.innen__img--rahmen5{
+		width:	80%;
+		height:	30%;
+	}	
+}
+
+
+@media (min-width: 451px) and (max-width: 490px),
+@media only screen and (min-device-width : 451px) and (max-device-width : 490px){ 
+	.innen__img--rahmen5{
+		width:	84%;
+		height:	30%;
+	}	
+}
+
+@media (max-width: 450px),
+@media only screen and (min-device-width : 450px){
+	.innen__img--rahmen5{
+		width:	250px;
+		height:	200px;
+	}	
+}
+
+
+
 @media (min-width: 950px) {
 	
 }
@@ -103,12 +149,8 @@
 		width: 24rem;
 		height: 32rem;
 	}
-
-	.innen__img--rahmen5{
-		width:	160px;
-		height:	120px;
-	}
 }
+
 
 @media (max-width: 450px) {
 
@@ -137,11 +179,6 @@
 		height: 	20rem;
 	}	
 	
-	.innen__img--rahmen5 {
-		width: 		250px;
-		height: 	200px;
-	}
-
 }
 
 
