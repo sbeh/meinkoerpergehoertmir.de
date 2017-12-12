@@ -3,6 +3,7 @@
 	html,body {
 		margin:				0;
 		padding:			0;
+		/*background-color:	var(--pimarycolor,#00a1dd);*/
 		background-color:	var(--pimarycolor,#00a1dd);
 	}
 
@@ -59,4 +60,12 @@
 		background-color:	red;
 	}
 
+}
+
+@media only screen and (min-device-width : 360px) and (max-device-width : 640px){
+	html,body {
+		margin:				0;
+		padding:			0;
+		background-color:	red;
+	}
 }
