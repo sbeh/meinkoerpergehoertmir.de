@@ -69,8 +69,7 @@
 	}
 }
 
-@media (max-width: 450px),
-@media only screen and (min-device-width : 450px){
+@media only screen and (min-device-width : 300px) and  (max-device-width : 450px){
 	.left__difference--left{
 		margin-left:	0;
 	}
