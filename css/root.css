@@ -7,4 +7,7 @@
   
   --pimarydif: 			    2%;
   --secondarydif: 			0.15rem;
+  
+  --device__300-450--font :         5rem;
+  --device__300-450--line-height :  13rem;
 }
