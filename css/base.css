@@ -65,10 +65,4 @@
 		padding-top:		calc( var(--pimarydif,15%) * 15);
 	}
 	
-	article{
-		font-size:		var(--device__standard--font,2.5rem);
-		
-  /*--device__300-450--font :         5rem;
-  --device__300-450--line-height :  13rem;*/
-	}
 }
