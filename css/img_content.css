@@ -16,7 +16,9 @@
 		margin-right: 		auto;
 		background-size:	contain;
 		background-repeat:	no-repeat;
-		background-position:bottom center;
+		background-position:bottom center;	
+  		-moz-box-sizing: border-box;
+  		box-sizing: border-box;
 	}
 
 	.left__img--rahmen{
