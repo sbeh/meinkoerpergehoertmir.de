@@ -18,10 +18,10 @@
 	}
 
 	.nav__links span{
-		margin-left:5%;
+		margin-left:	5%;
 		font-size: 		100px;
 		line-height:	220%;
-		color:	#ffffff;
+		color:			#ffffff;
 	}
 
 	.article__left--item{
@@ -94,10 +94,9 @@
 	
 
 	.nav__links span{
-		margin-left:	5%;
-		font-size: 		15rem;
-		line-height:	25rem;
-		color:			#ffffff;
+		margin-left:	0;
+		font-size: 		200%;
+		line-height:	250%;
 	}
 
 	nav ul{
