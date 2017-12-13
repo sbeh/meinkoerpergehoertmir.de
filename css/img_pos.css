@@ -13,9 +13,11 @@
 	.img__pos--right1,
 	.img__pos--right2,
 	.img__pos--right3,
-	.img__pos--right4,
+	.img__pos--right4{
+		position:		absolute; 	
+	}
 	.img__pos--right5{
-		position:		absolute; 
+		position:		relative; 
 	}
 
 	.img__pos--righ{}
