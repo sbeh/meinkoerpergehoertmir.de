@@ -19,4 +19,5 @@ if (kk === 1) {
         console.log(z);
    // meinevariable.remove('article__left--item');
    // meinevariable.add('useragent__firefox--item');
+        }
     }
