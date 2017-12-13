@@ -127,6 +127,11 @@
 		height:				120px; 	
 		margin:				0;	
 	}
+	
+	.innen__img--rahmen{
+		height:	9rem;
+		width:	auto;
+	}
 }
 
 
