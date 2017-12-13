@@ -67,7 +67,10 @@
 @media only screen and (min-device-width : 300px) and  (max-device-width : 450px){
 	.left__difference--left{
 		margin-left:	0;
+		font-size: 		var(--device__300-450--font1);
+		line-height: 		var(--device__300-450--line-height1);
 	}
+	
 	.wrapper__left,
 	.wrapper__right {
 		width:		100%
