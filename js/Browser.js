@@ -15,10 +15,10 @@ function getBrowserId () {
 var kk = getBrowserId();
 if (kk === 1) {
     var meinevariable = document.getElementsByClassName('article__left--item');
-    console.log(meinevariable);
-    //for( var z=0 ; z < meinevariable.length ; z++){
-      //  console.log(z);
+    //console.log(meinevariable);
+    for( var z=0 ; z < meinevariable ; z++){
+        console.log(z);
    // meinevariable.remove('article__left--item');
    // meinevariable.add('useragent__firefox--item');
-        //}
+        }
     }
