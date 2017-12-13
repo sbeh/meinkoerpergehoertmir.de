@@ -15,7 +15,7 @@
 	.img__pos--right3,
 	.img__pos--right4,
 	.img__pos--right5{
-		position:		relative; 
+		position:		absolute; 
 	}
 
 	.img__pos--righ{}
@@ -82,7 +82,9 @@
 		right: 0;
 	}
 
-	.img__pos--right1{}	
+	.img__pos--right1{
+		right:	var(--pimarydif);
+	}	
 
 	.img__pos--right5{	
 		left:-0px;
