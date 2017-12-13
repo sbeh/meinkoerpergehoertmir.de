@@ -126,9 +126,7 @@
 		height:	10rem;*/
 		width:		25rem;
 		height:		15rem;
-		
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+		display:inline-block;
 	}
 	.innen__img--rahmen1{
 		width:	auto;
