@@ -61,6 +61,6 @@
 	}
 
 	.innen__abstand--top {
-		padding-top:		calc( var(--pimarydif,6%) * 15);
+		padding-top:		calc( var(--pimarydif,15%) * 15);
 	}
 }
