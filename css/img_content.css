@@ -10,7 +10,8 @@
 	.innen__img--rahmen4,
 	.innen__img--rahmen5,
 	.innen__img--rahmen6,
-	.innen__img--galerie{
+	.innen__img--galerie,
+	.innen__img--rahmen7{
 		margin-left: 		auto;
 		margin-right: 		auto;
 		background-size:	contain;
@@ -109,6 +110,11 @@
 }
 
 @media only screen and (min-device-width : 300px ) and (max-device-width : 450px){
+	
+	.innen__img--rahmen7{
+		width:				135px;
+		height:				80px;
+	}
 	.innen__img--rahmen5{
 		width:	250px;
 		height:	200px;
@@ -133,54 +139,3 @@
 		width:	auto;
 	}
 }
-
-
-
-@media (min-width: 950px) {
-	
-}
-
-@media (min-width: 450px) and (max-width: 950px) {
-
-	.innen__img--rahmen3{
-		width:	170px;
-		height:	54px;
-	}
-
-	.innen__img--rahmen2 {
-		width: 13rem;
-		height: 4rem;
-	}
-
-	.innen__img--rahmen4 {
-		width: 280px;
-		height: 210px;
-	}
-
-	.innen__img--rahmen6 {
-		width: 24rem;
-		height: 32rem;
-	}
-}
-
-
-@media (max-width: 450px) {
-
-	.innen__img--rahmen4 {
-		width: 		240px;
-		height: 	150px;
-	}
-
-	.innen__img--rahmen3{
-		height:		40px;
-		width: 		145px;
-	}
-
-	.innen__img--rahmen6 {
-		width: 		17rem;
-		height: 	20rem;
-	}	
-	
-}
-
-
