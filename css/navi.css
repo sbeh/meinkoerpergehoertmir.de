@@ -95,7 +95,7 @@
 
 	.nav__links span{
 		margin-left:	0;
-		font-size: 	var(--standardfontsizedevice__300-450--font);
+		font-size: 	var(--device__300-450--font);
 	}
 
 	nav ul{
