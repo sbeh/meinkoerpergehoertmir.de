@@ -9,8 +9,9 @@ function getBrowserId () {
     for (nIdx; nIdx > -1 && sUsrAg.indexOf(aKeys[nIdx]) === -1; nIdx--);
 
     if (nIdx === 1) {
-    var meinevariable = document.querySelector("article");
-    meinevariable.className += "test";
+    var meinevariable = document.querySelector("article")
+    meinevariable.className += "test"
+    }
         
 }
     
