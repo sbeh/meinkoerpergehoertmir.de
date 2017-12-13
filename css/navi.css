@@ -104,6 +104,7 @@
 	}
 	
 	.article__left--item{
-		font-size: 		125%;
+		font-size: 		var(--device__300-450--font1);
+		line-height: 		var(--device__300-450--line-height1);
 	}
 }
