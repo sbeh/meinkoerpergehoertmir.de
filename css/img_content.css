@@ -121,6 +121,12 @@
 		width:	auto;
 		height:	250px;
 	}
+
+	.innen__img--galerie{
+		width:				120px;
+		height:				120px; 	
+		margin:				0;	
+	}
 }
 
 
