@@ -20,7 +20,9 @@
 
 	.img__pos--righ{}
 	
-	.img__pos--right1{}
+	.img__pos--right1{
+		right:	var(--pimarydif,2%);
+	}
 	
 	.img__pos--right2{
 		right:			-343px;
@@ -34,7 +36,7 @@
 	
 	.innen__button--position{
 		text-align:		right;
-		margin-right:	var(--pimarydif,2%)
+		margin-right:	var(--pimarydif,2%);
 	}
 	
 	.innen__image--position{
@@ -83,7 +85,7 @@
 	}
 
 	.img__pos--right1{
-		right:	var(--pimarydif);
+		right: var(--pimarydif,2%);
 	}	
 
 	.img__pos--right5{	
