@@ -1,8 +1,6 @@
 @media all{
 
 	nav{
-		font-size: 		100px;
-		line-height:	220%;
 		cursor: 		pointer;
 	}
 
@@ -21,6 +19,8 @@
 
 	.nav__links span{
 		margin-left:5%;
+		font-size: 		100px;
+		line-height:	220%;
 		color:	#ffffff;
 	}
 
@@ -92,9 +92,12 @@
 		display:		none;
 	}
 	
-	nav {
-		font-size: 			200px;
-		line-height: 		300px;
+
+	.nav__links span{
+		margin-left:5%;
+		font-size: 		200px;
+		line-height:	520%;
+		color:	#000000;
 	}
 
 	nav ul{
