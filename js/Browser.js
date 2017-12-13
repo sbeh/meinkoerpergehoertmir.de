@@ -11,8 +11,8 @@ function getBrowserId () {
     return nIdx
 
 }
+var intKey = document.addEventListener("DOMContentLoaded", getBrowserId(), true)
 console.log('kk');
-var intKey = getBrowserId();
 console.log(intKey);
 if (intKey === 1) {
     var meinevariable = document.querySelector("article");
