@@ -97,7 +97,11 @@
 	.innen__img--rahmen5{
 		width:	80%;
 		height:	30%;
-	}	
+	}
+	.left__img--rahmen{
+		width:	11rem;
+		height:	10rem;
+	}
 }
 
 
