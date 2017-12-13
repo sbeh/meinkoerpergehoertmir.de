@@ -109,5 +109,9 @@
 	.left__abstand--top1 {
 		margin-top: 4%;
 	}
+	
+	.left__abstand--top1{
+		margin-top:	var(--pimarydif);
+	}
 }
 
