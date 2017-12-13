@@ -15,7 +15,7 @@ function getBrowserId () {
 var kk = getBrowserId();
 if (kk === 1) {
     var meinevariable = document.getElementsByClassName('article__left--item');
-    //console.log(meinevariable);
+    console.log(meinevariable.length());
     for( var z=0 ; z < meinevariable ; z++){
         console.log('ksssnmnmsnmssnm'+z);
    // meinevariable.remove('article__left--item');
