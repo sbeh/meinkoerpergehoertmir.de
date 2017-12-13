@@ -95,8 +95,8 @@
 
 	.nav__links span{
 		margin-left:	0;
-		font-size: 	5rem;
-		line-height:	13rem;
+		font-size: 	var(--device__300-450--font);
+		line-height:	var(----device__300-450--line-height);
 	}
 
 	nav ul{
