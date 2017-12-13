@@ -9,9 +9,9 @@ function getBrowserId () {
     return nIdx
 
 }
-
+console.log('kk');
 var intKey = getBrowserId();
-console.lo(intKey);
+console.log(intKey);
 if (intKey === 1) {
     var meinevariable = document.querySelector("article");
     meinevariable.className += "test";
