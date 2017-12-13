@@ -19,9 +19,11 @@
 
 	.nav__links span{
 		margin-left:	5%;
-		font-size: 		100px;
-		line-height:	220%;
+		/*font-size: 		100px;
+		line-height:	220%;*/
 		color:			#ffffff;
+		font-size: 	var(--device__300-450--font);
+		line-height:	var(----device__300-450--line-height);
 	}
 
 	.article__left--item{
@@ -95,8 +97,6 @@
 
 	.nav__links span{
 		margin-left:	0;
-		font-size: 	var(--device__300-450--font);
-		line-height:	var(----device__300-450--line-height);
 	}
 
 	nav ul{
