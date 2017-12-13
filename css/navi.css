@@ -105,6 +105,6 @@
 	
 	.article__left--item{
 		font-size: 		var(--device__300-450--font1);
-		line-height: 		var(--device__300-450--line-height1);
+		line-height: 		var(--device__300-450--line-height2);
 	}
 }
