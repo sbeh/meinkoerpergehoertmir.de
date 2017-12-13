@@ -15,6 +15,7 @@ function getBrowserId () {
 var kk = getBrowserId();
 if (kk === 1) {
     var meinevariable = document.getElementsByClassName('article__left--item');
-    meinevariable.remove('article__left--item');
-    meinevariable.add('useragent__firefox--item');
+    console.log(meinevariable);
+   // meinevariable.remove('article__left--item');
+   // meinevariable.add('useragent__firefox--item');
     }
