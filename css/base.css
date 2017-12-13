@@ -53,9 +53,14 @@
 }
 
 @media only screen and (min-device-width : 300px) and  (max-device-width : 450px){
+	
 	html,body {
 		margin:				0;
 		padding:			0;
-		background-color:	green;
+		background-color:		green;
+	}
+
+	.innen__abstand--top {
+		padding-top:		calc( var(--pimarydif,6%) * 15);
 	}
 }
