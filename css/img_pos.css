@@ -105,9 +105,10 @@
 	.img__pos--right3 {
 		right: auto;
 	}
-	
+
 	.left__abstand--top1{
+		margin-top:		192%;
 		margin-top:	var(--pimarydif,2%);
-	}
+	}	
 }
 
