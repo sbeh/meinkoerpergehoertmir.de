@@ -22,6 +22,8 @@
 }
 
 @media (max-width: 450px) {
-
-	
+	button[type=button]{
+		font-size: 		var(--device__300-450--font);
+		line-height: 		var(--device__300-450--line-height);
+	}
 }
