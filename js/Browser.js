@@ -7,12 +7,15 @@ function getBrowserId () {
         sUsrAg = navigator.userAgent, nIdx = aKeys.length - 1;
 
     for (nIdx; nIdx > -1 && sUsrAg.indexOf(aKeys[nIdx]) === -1; nIdx--);
-console.log(nIdx);
-    if (nIdx === 1) {
-    var meinevariable = document.querySelector("article");
-    meinevariable.className += "test";
-    }
-        
+
+    return nIdx;    
 }
     
-document.addEventListener("DOMContentLoaded", getBrowserId(), true)
+//document.addEventListener("DOMContentLoaded", getBrowserId(), true)
+var kk = getBrowserId();
+
+    console.log(kk);
+    /*if (nIdx === 1) {
+    var meinevariable = document.querySelector("article");
+    meinevariable.className += "test";
+    }*/
