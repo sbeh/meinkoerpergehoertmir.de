@@ -7,7 +7,7 @@ function getBrowserId () {
         sUsrAg = navigator.userAgent, nIdx = aKeys.length - 1;
 
     for (nIdx; nIdx > -1 && sUsrAg.indexOf(aKeys[nIdx]) === -1; nIdx--);
-
+console.log(nIdx);
     if (nIdx === 1) {
     var meinevariable = document.querySelector("article");
     meinevariable.className += "test";
