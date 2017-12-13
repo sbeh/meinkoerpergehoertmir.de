@@ -11,18 +11,4 @@ loadScript('js/jquery.js');
 loadScript('js/jquery.lightbox-0.5.js');
 loadScript('js/replace.js');
 loadScript('js/state_navigation.js');
-
-
-function getBrowserId () {
-
-    var
-        aKeys = ["MSIE", "Firefox", "Safari", "Chrome", "Opera"],
-        sUsrAg = navigator.userAgent, nIdx = aKeys.length - 1;
-
-    for (nIdx; nIdx > -1 && sUsrAg.indexOf(aKeys[nIdx]) === -1; nIdx--);
-
-    return nIdx
-
-}
-
-console.log(getBrowserId());
+loadScript('js/browser.js');
