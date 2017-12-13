@@ -14,6 +14,6 @@ function getBrowserId () {
 //document.addEventListener("DOMContentLoaded", getBrowserId(), true)
 var kk = getBrowserId();
 if (kk === 1) {
-    var meinevariable = document.querySelector("article");
+    var meinevariable = document.getElementsByTagName('article');
     meinevariable.className += " useragent__firefox--item";
     }
