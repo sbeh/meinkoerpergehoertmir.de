@@ -13,8 +13,6 @@ loadScript('js/replace.js');
 loadScript('js/state_navigation.js');
 
 
-Beispiel #2: Browsererkennung und Rückgabe eines Index.
-
 function getBrowserId () {
 
     var
