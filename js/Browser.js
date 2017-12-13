@@ -17,7 +17,7 @@ if (kk === 1) {
     var meinevariable = document.getElementsByClassName('article__left--item');
     //console.log(meinevariable);
     for( var z=0 ; z < meinevariable ; z++){
-        console.log(z);
+        console.log('ksssnmnmsnmssnm'+z);
    // meinevariable.remove('article__left--item');
    // meinevariable.add('useragent__firefox--item');
         }
