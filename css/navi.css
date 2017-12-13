@@ -19,9 +19,9 @@
 
 	.nav__links span{
 		margin-left:	5%;
-		/*font-size: 		100px;
+		/*font-size: 	100px;
 		line-height:	220%;*/
-		color:			#ffffff;
+		color:		#ffffff;
 		font-size: 	var(--device__300-450--font);
 		line-height:	var(----device__300-450--line-height);
 	}
