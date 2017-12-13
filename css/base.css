@@ -63,4 +63,8 @@
 	.innen__abstand--top {
 		padding-top:		calc( var(--pimarydif,15%) * 15);
 	}
+	
+	article{
+		font-size:		var(--device__standard--font,2.5rem);
+	}
 }
