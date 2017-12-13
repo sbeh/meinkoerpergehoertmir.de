@@ -98,10 +98,6 @@
 		width:	80%;
 		height:	30%;
 	}
-	.left__img--rahmen{
-		width:	11rem;
-		height:	10rem;
-	}
 }
 
 
@@ -117,6 +113,10 @@
 		width:	250px;
 		height:	200px;
 	}	
+	.left__img--rahmen{
+		width:	11rem;
+		height:	10rem;
+	}
 }
 
 
