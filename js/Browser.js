@@ -13,9 +13,8 @@ function getBrowserId () {
     
 //document.addEventListener("DOMContentLoaded", getBrowserId(), true)
 var kk = getBrowserId();
-
+if (kk === 1) {
     console.log(kk);
-    /*if (nIdx === 1) {
-    var meinevariable = document.querySelector("article");
-    meinevariable.className += "test";
-    }*/
+    /*var meinevariable = document.querySelector("article");
+    meinevariable.className += "test";*/
+    }
