@@ -9,8 +9,9 @@
 	}
 
 	article{
-		font-size:			120%;
-		text-align:			left;
+		font-size:		var(--device__standard--font);
+		line-height:    	var(--device__standard--line-height);
+		text-align:		left;
 		padding-top:		var(--pimarydif,2%);
 	}
 	
@@ -66,5 +67,8 @@
 	
 	article{
 		font-size:		var(--device__standard--font,2.5rem);
+		
+  /*--device__300-450--font :         5rem;
+  --device__300-450--line-height :  13rem;*/
 	}
 }
