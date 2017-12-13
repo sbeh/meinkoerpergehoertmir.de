@@ -3,7 +3,7 @@
 var meinArray = new Array('Element 1', 'Element 2', 'Element 3');
     
 // gibt die aktuelle Länge (3) aus
-alert(meinArray.length);
+console.log(meinArray.length);
 
 
 function getBrowserId () {
@@ -21,11 +21,11 @@ function getBrowserId () {
 var kk = getBrowserId();
 if (kk === 1) {
     var meinevariable = document.getElementsByClassName('article__left--item');
-    console.log(meinevariable.length());
-    for( var z=0 ; z < meinevariable ; z++){
-        console.log('ksssnmnmsnmssnm'+z);
+    console.log(meinevariable);
+    //for( var z=0 ; z < meinevariable ; z++){
+      //  console.log('ksssnmnmsnmssnm'+z);
    // meinevariable.remove('article__left--item');
    // meinevariable.add('useragent__firefox--item');
-        }
+     //   }
     }
 
