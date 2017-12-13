@@ -11,4 +11,4 @@ loadScript('js/jquery.js');
 loadScript('js/jquery.lightbox-0.5.js');
 loadScript('js/replace.js');
 loadScript('js/state_navigation.js');
-loadScript('js/browser.js');
+loadScript('js/Browser.js');
