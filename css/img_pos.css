@@ -106,12 +106,8 @@
 		right: auto;
 	}
 	
-	.left__abstand--top1 {
-		margin-top: 4%;
-	}
-	
 	.left__abstand--top1{
-		margin-top:	var(--pimarydif);
+		margin-top:	var(--pimarydif,2%);
 	}
 }
 
