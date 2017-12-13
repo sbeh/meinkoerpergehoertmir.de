@@ -14,14 +14,14 @@
 	}
 	
 	.nav__links{ 
-		border-bottom:1px solid white; 
+		border-bottom:1px solid white;
+		line-height:	var(--device__300-450--line-height);
 	}
-
+	
 	.nav__links span{
 		margin-left:	5%;
 		color:		#ffffff;
-		font-size: 	var(--device__300-450--font);
-		height:		var(--device__300-450--line-height);
+		font-size: 	var(--standardfontsize);
 	}
 
 	.article__left--item{
@@ -95,10 +95,15 @@
 
 	.nav__links span{
 		margin-left:	0;
+		font-size: 	var(--standardfontsizedevice__300-450--font);
 	}
 
 	nav ul{
 		background-color: var(--secondarycolor);
+	}
+
+	nav ul li{
+		line-height:	var(--device__300-450--line-height);
 	}
 	
 	.article__left--item{
