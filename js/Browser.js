@@ -7,7 +7,7 @@ window.onload = function () {
  console.log('weooeoe:' + kk);
      if (kk === 1) {
       console.log('zeile 9:  ' +  document.getElementsByTagName('article'));
-      if(document.getElementsByTagName('article') !== undefined){
+      if(document.getElementsByTagName('article')){
            console.log('zeile 11:  ' +  document.getElementsByTagName('article'));
              //document.getElementsByTagName('article').classList.remove("articel__left--item");
               // console.log(document.getElementsByTagName('article').size());
