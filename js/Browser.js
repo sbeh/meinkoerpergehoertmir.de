@@ -5,9 +5,9 @@ window.load = function () {
      var kk = getBrowserId();
  
      if (kk === 1) {
-             document.getElementsByTagName('article').classList.remove("articel__left--item");
-               console.log(document.getElementsByTagName('article').size());
-             document.getElementsByTagName('article').add('useragent__firefox--item');
+             //document.getElementsByTagName('article').classList.remove("articel__left--item");
+              // console.log(document.getElementsByTagName('article').size());
+             document.getElementsByTagName("article").add("useragent__firefox--item");
      }
 
 }
