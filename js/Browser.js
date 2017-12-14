@@ -18,13 +18,13 @@ function getBrowserId () {
 
     return nIdx;
 }
-
-if (kk === 1) {
+console.log(kk);
+/*if (kk === 1) {
 
      var allParas = document.getElementsByClassName('article__left--item');
      var num = allParas.length;
      console.log('There are ' + num + ' paragraph in this document');
-}
+}*/
 
 
 
