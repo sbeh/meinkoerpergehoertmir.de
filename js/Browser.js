@@ -26,25 +26,3 @@ function getBrowserId () {
 
     return nIdx;
 }
-
-
-
-//if (kk === 1) {
-  //  var meinevariable = document.getElementsByClassName('article__left--item');
-    //console.log(Object.meinevariable);
-    //console.log('///////////'+meinevariable+'//////////////');
-    
-    //var z=0;
-    //if(typeof meinevariable[z] !== undefined){
-        //console.log('kkk'+z);
-        //z++;
-   // } 
- 
-    
-    
-    //for( var z=0 ; z < meinevariable ; z++){
-      //  console.log('ksssnmnmsnmssnm'+z);
-   // meinevariable.remove('article__left--item');
-   // meinevariable.add('useragent__firefox--item');
-     //   }
-   // }
