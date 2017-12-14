@@ -111,7 +111,9 @@
 	}	
 }
 
-@media only screen and (min-device-width : 300px ) and (max-device-width : 450px){
+@media only screen and (min-device-width : 300px ) and (max-device-width : 450px),
+@media screen and (min-width: 450px) {
+
 	
 	.innen__img--rahmen7{
 		width:				350px;
