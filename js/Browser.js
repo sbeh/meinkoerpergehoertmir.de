@@ -16,15 +16,10 @@ var kk = getBrowserId();
 if (kk === 1) {
     var meinevariable = document.getElementsByClassName('article__left--item');
     //console.log(Object.meinevariable);
-    console.log(meinevariable);
     
-    var z=0 
-    for(var elem of meinevariable){
-        
-        console.log(elem + z);
-        z++; 
-    }
-       
+    console.log('///////////'+meinevariable+'//////////////');
+    
+  //if(meinevariable
  
     
     
