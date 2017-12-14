@@ -8,7 +8,7 @@ window.onload = function () {
  
      if (kk === 1) {
        var allParas = document.getElementsByClassName('article__left--item');
-     77var num = allParas.length;
+     var num = allParas.length;
      console.log(allParas);
      }
 
