@@ -10,6 +10,9 @@ window.onload = function () {
           //var size = Object.keys(allParas);
           //var num = allParas.length;
      console.log(allParas);
+     allParas.remove('article__left--item');
+     allParas.add('useragent__firefox--item');
+ 
      }
 
 }
