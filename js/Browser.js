@@ -2,7 +2,7 @@
  
 console.log('Seite geladen');
 var kk = 0;
-window.load = function () {
+window.onload = function () {
      var kk = getBrowserId();
      console.log('5 - Funktion geladen');
 }
