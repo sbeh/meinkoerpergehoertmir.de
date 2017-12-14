@@ -18,8 +18,12 @@ function replaceElem(elem)
 }
 
 function handleReplace() {
-    for(var elem of document.getElementsByTagName('replace'))
+    var elems = document.getElementsByTagName('replace')
+    for(var elem of elems)
         replaceElem(elem)
+    
+    if (elems.length === 0)
+        replaceClasses()
 }
 
 document.addEventListener('load', handleReplace, true)

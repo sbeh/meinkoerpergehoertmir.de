@@ -2,13 +2,16 @@
 
  console.log('3:  browser');
 
-window.onload = function () {
+//window.onload = function () {
+function  replaceClasses() {
      var kk = getBrowserId();
- console.log('weooeoe:' + kk);
+ 
      if (kk === 1) {
       
-      for(var i = 0; i < 10; i++){
-       console.log( document.getElementsByTagName('article')[0]);
+      var articles = document.getElementsByTagName('article')
+      for(var i = 0; i < articles.length; i++){
+          var article = articles[i]
+          console.log(article)
       }
       console.log('13:   '+ document.getElementsByTagName('article'));
       if(document.getElementsByTagName('article')){
