@@ -14,6 +14,7 @@ window.onload = function () {
     // console.log(allParas);
      item.remove('article__left--item');
      item.add('useragent__firefox--item');
+          }
  
      }
 
