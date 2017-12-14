@@ -15,7 +15,7 @@ var kk = handleReplace();
 
 if (kk === 1) {
     for(var elem of document.getElementsByClassName('article__left--item')){
-           chanceElem(elem)
+           chanceElem(elem);
     }
 }
 
@@ -47,5 +47,3 @@ function chanceElem(elem){
    // meinevariable.add('useragent__firefox--item');
      //   }
    // }
-
-
