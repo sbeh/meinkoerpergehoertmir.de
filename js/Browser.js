@@ -14,7 +14,6 @@ function getBrowserId () {
 var kk = handleReplace();
 
 if (kk === 1) {
-    
     for(var elem of document.getElementsByClassName('article__left--item')){
            chanceElem(elem)
     }
@@ -47,6 +46,6 @@ function chanceElem(elem){
    // meinevariable.remove('article__left--item');
    // meinevariable.add('useragent__firefox--item');
      //   }
-    }
+   // }
 
 
