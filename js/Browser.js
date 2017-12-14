@@ -5,7 +5,7 @@ window.load = function () {
      var kk = getBrowserId();
  
      if (kk === 1) {
-          console.log(document.getElementsByTagName('article'));
+          console.log('zeile 8:  ' +  document.getElementsByTagName('article'));
              //document.getElementsByTagName('article').classList.remove("articel__left--item");
               // console.log(document.getElementsByTagName('article').size());
              document.getElementsByTagName("article").classList.add("useragent__firefox--item");
