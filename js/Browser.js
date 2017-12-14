@@ -6,7 +6,7 @@ window.load = function () {
  
      if (kk === 1) {
              document.getElementsByTagName('article').remove("articel__left--item");
-               console.log(item);
+               console.log(item.size());
              document.getElementsByTagName('article').add('useragent__firefox--item');
      }
 
