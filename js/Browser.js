@@ -11,18 +11,34 @@ function getBrowserId () {
     return nIdx;    
 }
 
-var kk = getBrowserId();
+var kk = handleReplace();
 
 if (kk === 1) {
-    var meinevariable = document.getElementsByClassName('article__left--item');
+    
+    for(var elem of document.getElementsByClassName('article__left--item')){
+           chanceElem(elem)
+    }
+}
+
+function chanceElem(elem){
+    console.log('jjjj');
+}
+
+
+
+
+
+
+//if (kk === 1) {
+  //  var meinevariable = document.getElementsByClassName('article__left--item');
     //console.log(Object.meinevariable);
     //console.log('///////////'+meinevariable+'//////////////');
     
-    var z=0;
-    if(typeof meinevariable[z] !== undefined){
-        console.log('kkk'+z);
-        z++;
-    } 
+    //var z=0;
+    //if(typeof meinevariable[z] !== undefined){
+        //console.log('kkk'+z);
+        //z++;
+   // } 
  
     
     
@@ -32,4 +48,5 @@ if (kk === 1) {
    // meinevariable.add('useragent__firefox--item');
      //   }
     }
+
 
