@@ -5,13 +5,13 @@ window.onload = function () {
      var kk = getBrowserId();
  
      if (kk === 1) {
-          var item = document.getElementsByTagName('articel');
-          if( item ) {
-             item.classList.remove("articel__left--item");
+          //var item = document.getElementsByTagName('article');
+          //if( item ) {
+             document.getElementsByTagName('article').classList.remove("articel__left--item");
                console.log(item);
-                 item.remove('article__left--item');
-                    item.add('useragent__firefox--item');
-          }
+                // item.remove('article__left--item');
+             document.getElementsByTagName('article').add('useragent__firefox--item');
+         // }
  
      }
 
