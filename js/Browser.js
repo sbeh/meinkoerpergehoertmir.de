@@ -19,7 +19,7 @@ function getBrowserId () {
     return nIdx;
 }
 
-   if ( === 1) {
+if (kk === 1) {
 
      var allParas = document.getElementsByClassName('article__left--item');
      var num = allParas.length;
