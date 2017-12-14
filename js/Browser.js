@@ -21,9 +21,6 @@ if (kk === 1) {
     var z=0;
     if(typeof meinevariable[z] !== undefined){
         console.log('kkk'+z);
-        if(typeof meinevariable[z+1] !== undefined){
-            //ist leer
-        } 
         z++;
     } 
  
