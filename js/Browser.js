@@ -3,7 +3,7 @@
 
 window.load = function () {
      var kk = getBrowserId();
- console.log(kk);
+ console.log('weooeoe:' + kk);
      if (kk === 1) {
           console.log('zeile 8:  ' +  document.getElementsByTagName('article'));
              //document.getElementsByTagName('article').classList.remove("articel__left--item");
