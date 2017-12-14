@@ -15,9 +15,9 @@ var kk = getBrowserId();
 
 if (kk === 1) {
 
-     var allParas = document.getElementsByTagName('article');
-      var num = allParas.length;
-      console.log('There are ' + num + ' paragraph in this document');
+     var allParas = document.getElementsByClassName('article__left--item');
+     var num = allParas.length;
+     console.log('There are ' + num + ' paragraph in this document');
 }
 
 function chanceElem(elem){
