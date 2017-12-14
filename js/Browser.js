@@ -10,7 +10,7 @@ window.onload = function () {
            console.log('zeile 8:  ' +  document.getElementsByTagName('article'));
              //document.getElementsByTagName('article').classList.remove("articel__left--item");
               // console.log(document.getElementsByTagName('article').size());
-             document.getElementsByTagName("article").classList.add("useragent__firefox--item");
+             //document.getElementsByTagName("article").classList.add("useragent__firefox--item");
        }else{console.log('nichts da'); }
      }
 
