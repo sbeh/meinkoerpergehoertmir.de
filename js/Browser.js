@@ -1,6 +1,6 @@
 'use strict'
 
- console.log('3:  browser' + kk);
+ console.log('3:  browser');
 
 window.onload = function () {
      var kk = getBrowserId();
