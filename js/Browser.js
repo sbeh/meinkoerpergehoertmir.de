@@ -16,10 +16,16 @@ var kk = getBrowserId();
 if (kk === 1) {
     var meinevariable = document.getElementsByClassName('article__left--item');
     //console.log(Object.meinevariable);
+    //console.log('///////////'+meinevariable+'//////////////');
     
-    console.log('///////////'+meinevariable+'//////////////');
-    
-  //if(meinevariable
+    var z=0;
+    if(typeof meinevariable[z] !== undefined){
+        console.log('kkk'+z);
+        if(typeof meinevariable[z+1] !== undefined){
+            //ist leer
+        } 
+        z++;
+    } 
  
     
     
