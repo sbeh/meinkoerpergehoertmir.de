@@ -1,7 +1,7 @@
 'use strict'
 
 
-window.onload = function () {
+window.load = function () {
      var kk = getBrowserId();
  
      if (kk === 1) {
