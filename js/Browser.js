@@ -5,9 +5,11 @@ window.onload = function () {
      var kk = getBrowserId();
  
      if (kk === 1) {
+          
        var allParas = document.getElementsByClassName('article__left--item');
-          var num = allParas.length;
-    // console.log(allParas);
+          var size = Object.keys(allParas).length;
+          //var num = allParas.length;
+     console.log(size);
      }
 
 }
