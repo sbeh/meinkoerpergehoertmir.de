@@ -1,7 +1,11 @@
 'use strict'
+ 
+var kk = 0;
+window.onload = function () {
+     var kk = getBrowserId();
+}
 
 function getBrowserId () {
-
     var
         aKeys = ["MSIE", "Firefox", "Safari", "Chrome", "Opera"],
         sUsrAg = navigator.userAgent, nIdx = aKeys.length - 1;
@@ -11,14 +15,22 @@ function getBrowserId () {
     return nIdx;    
 }
 
-var kk = getBrowserId();
-
 if (kk === 1) {
 
-     var allParas = document.getElementsByClassName('article__left--item');
-     var num = allParas.length;
-     console.log('There are ' + num + ' paragraph in this document');
+    var allParas = document.getElementsByClassName('article__left--item');
+    var num = allParas.length;
+    console.log('There are ' + num + ' paragraph in this document');
+    
 }
+
+
+
+
+
+
+
+
+
 
 function chanceElem(elem){
     console.log('jjjj');
