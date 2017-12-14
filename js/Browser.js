@@ -11,7 +11,7 @@ window.onload = function () {
        //var allParas = document.getElementsByClassName('section__innen');
           //var size = Object.keys(allParas);
           //var num = allParas.length;
-    // console.log(allParas);
+     console.log(item);
      item.remove('article__left--item');
      item.add('useragent__firefox--item');
           }
