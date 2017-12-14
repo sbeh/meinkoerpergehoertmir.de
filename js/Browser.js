@@ -5,13 +5,15 @@ window.onload = function () {
      var kk = getBrowserId();
  
      if (kk === 1) {
-          
-       var allParas = document.getElementsByClassName('section__innen');
+          var item = document.getElementsByClassName('articel__left--item');
+          if( item ) {
+             
+       //var allParas = document.getElementsByClassName('section__innen');
           //var size = Object.keys(allParas);
           //var num = allParas.length;
-     console.log(allParas);
-     allParas[0].remove('article__left--item');
-     allParas[0].add('useragent__firefox--item');
+    // console.log(allParas);
+     item.remove('article__left--item');
+     item.add('useragent__firefox--item');
  
      }
 
