@@ -5,15 +5,12 @@ window.onload = function () {
      var kk = getBrowserId();
  
      if (kk === 1) {
-          var item = document.getElementsByClassName('articel__left--item');
+          var item = document.getElementsByTagName('articel');
           if( item ) {
-             
-       //var allParas = document.getElementsByClassName('section__innen');
-          //var size = Object.keys(allParas);
-          //var num = allParas.length;
-     console.log(item);
-     item.remove('article__left--item');
-     item.add('useragent__firefox--item');
+             item.classList.remove("articel__left--item");
+               console.log(item);
+                 item.remove('article__left--item');
+                    item.add('useragent__firefox--item');
           }
  
      }
