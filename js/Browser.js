@@ -1,7 +1,8 @@
 'use strict'
 
+ 
 
-window.load = function () {
+window.onload = function () {
      var kk = getBrowserId();
  console.log('weooeoe:' + kk);
      if (kk === 1) {
