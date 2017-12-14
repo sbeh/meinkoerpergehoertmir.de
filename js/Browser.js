@@ -6,6 +6,9 @@ window.onload = function () {
      var kk = getBrowserId();
  console.log('weooeoe:' + kk);
      if (kk === 1) {
+      for(var i = 0; i<10; i++){
+       console.log('hhh'+i);
+      }
       console.log('zeile 9:  ' + document.getElementsByTagName('article').length);
       if(document.getElementsByTagName('article')){
            console.log('zeile 11:  ' +  document.getElementsByTagName('article'));
