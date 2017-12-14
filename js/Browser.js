@@ -14,10 +14,10 @@ function getBrowserId () {
 var kk = getBrowserId();
 
 if (kk === 1) {
-    for(var elem of document.getElementsByClassName('article__left--item')){
-          console.log('jjjj');
-        //chanceElem(elem);
-    }
+
+     var allParas = document.getElementsByClassName('article__left--item');
+      var num = allParas.length;
+      alert('There are ' + num + ' paragraph in this document');
 }
 
 function chanceElem(elem){
