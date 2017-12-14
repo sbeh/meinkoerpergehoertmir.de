@@ -8,7 +8,7 @@ window.onload = function () {
      if (kk === 1) {
       if(document.getElementsByTagName('article') !== undefined){
         console.log('nichts');
-       else{
+      }else{
           console.log('zeile 8:  ' +  document.getElementsByTagName('article'));
              //document.getElementsByTagName('article').classList.remove("articel__left--item");
               // console.log(document.getElementsByTagName('article').size());
