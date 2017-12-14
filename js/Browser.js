@@ -6,7 +6,7 @@ window.onload = function () {
      var kk = getBrowserId();
  console.log('weooeoe:' + kk);
      if (kk === 1) {
-      console.log('zeile 9:  ' +  document.getElementsByTagName('article').length);
+      console.log('zeile 9:  ' + document.getElementsByTagName('article').length);
       if(document.getElementsByTagName('article')){
            console.log('zeile 11:  ' +  document.getElementsByTagName('article'));
              //document.getElementsByTagName('article').classList.remove("articel__left--item");
