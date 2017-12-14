@@ -1,9 +1,9 @@
 'use strict'
  
-console.log('Funktion geladen');
+console.log('Seite geladen');
 var kk = 0;
 window.load = function () {
-     var kk = getBrowserId();
+     getBrowserId();
      console.log('Funktion geladen');
 }
 
@@ -14,16 +14,22 @@ function getBrowserId () {
 
     for (nIdx; nIdx > -1 && sUsrAg.indexOf(aKeys[nIdx]) === -1; nIdx--);
 
-    return nIdx;    
-}
+    console.log('Funktion geladen');    
 
-if (kk === 1) {
 
-    var allParas = document.getElementsByClassName('article__left--item');
-    var num = allParas.length;
-    console.log('There are ' + num + ' paragraph in this document');
+   if (nIdx === 1) {
+
+     var allParas = document.getElementsByClassName('article__left--item');
+     var num = allParas.length;
+     console.log('There are ' + num + ' paragraph in this document');
     
+    }
+
+
+
+
 }
+
 
 
 
