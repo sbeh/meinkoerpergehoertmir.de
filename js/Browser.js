@@ -7,7 +7,7 @@ window.onload = function () {
      if (kk === 1) {
           
        var allParas = document.getElementsByClassName('article__left--item');
-          var size = Object.keys(allParas).length;
+          var size = Object.keys(allParas);
           //var num = allParas.length;
      console.log(size);
      }
