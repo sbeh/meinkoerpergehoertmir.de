@@ -1,6 +1,5 @@
 'use strict'
- 
-console.log('Seite geladen');
+
 
 window.onload = function () {
      var kk = getBrowserId();
@@ -8,7 +7,7 @@ window.onload = function () {
      if (kk === 1) {
        var allParas = document.getElementsByClassName('article__left--item');
      var num = allParas.length;
-     console.log(allParas);
+    // console.log(allParas);
      }
 
 }
@@ -34,7 +33,7 @@ function getBrowserId () {
 
 
 function chanceElem(elem){
-    console.log('jjjj');
+    //console.log('jjjj');
 }
 
 
