@@ -3,6 +3,7 @@
 var kk = 0;
 window.onload = function () {
      var kk = getBrowserId();
+     console.log('Funktion geladen');
 }
 
 function getBrowserId () {
