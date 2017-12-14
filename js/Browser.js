@@ -8,7 +8,7 @@ window.onload = function () {
      if (kk === 1) {
       
       for(var i = 0; i < 10; i++){
-       console.log( document.getElementsByTagName('article')[0]);
+       console.log( document.getElementsByTagName('article')[i]);
       }
       console.log('13:   '+ document.getElementsByTagName('article'));
       if(document.getElementsByTagName('article')){
