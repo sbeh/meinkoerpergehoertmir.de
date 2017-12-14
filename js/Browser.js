@@ -14,12 +14,12 @@ function getBrowserId () {
 var kk = getBrowserId();
 
 if (kk === 1) {
-    //var meinevariable = document.getElementsByClassName('article__left--item');
+    var meinevariable = document.getElementsByClassName('article__left--item');
     //console.log(Object.meinevariable);
-    //console.log(meinevariable);
+    console.log(meinevariable);
     
     var z=0 
-    for(var elem of document.getElementsByClassName('article__left--item')){
+    for(var elem of meinevariable){
         
         console.log(elem + z);
         z++; 
