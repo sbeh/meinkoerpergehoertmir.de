@@ -11,7 +11,7 @@ window.onload = function () {
              //document.getElementsByTagName('article').classList.remove("articel__left--item");
               // console.log(document.getElementsByTagName('article').size());
              document.getElementsByTagName("article").classList.add("useragent__firefox--item");
-       }
+       }else{console.log('nichts da'); }
      }
 
 }
