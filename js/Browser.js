@@ -4,7 +4,7 @@ console.log('Seite geladen');
 var kk = 0;
 window.load = function () {
      getBrowserId();
-     console.log('Funktion geladen');
+     console.log('5 - Funktion geladen');
 }
 
 function getBrowserId () {
@@ -14,7 +14,7 @@ function getBrowserId () {
 
     for (nIdx; nIdx > -1 && sUsrAg.indexOf(aKeys[nIdx]) === -1; nIdx--);
 
-    console.log('Funktion geladen');    
+    console.log('17 - Funktion geladen');    
 
 
    if (nIdx === 1) {
