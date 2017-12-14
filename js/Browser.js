@@ -3,7 +3,7 @@
 console.log('Seite geladen');
 var kk = 0;
 window.load = function () {
-     getBrowserId();
+     var kk = getBrowserId();
      console.log('5 - Funktion geladen');
 }
 
@@ -16,20 +16,15 @@ function getBrowserId () {
 
     console.log('17 - Funktion geladen');    
 
+    return nIdx;
+}
 
-   if (nIdx === 1) {
+   if ( === 1) {
 
      var allParas = document.getElementsByClassName('article__left--item');
      var num = allParas.length;
      console.log('There are ' + num + ' paragraph in this document');
-    
-    }
-
-
-
-
 }
-
 
 
 
