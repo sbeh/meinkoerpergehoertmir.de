@@ -11,7 +11,7 @@ function getBrowserId () {
     return nIdx;    
 }
 
-var kk = handleReplace();
+var kk = getBrowserId();
 
 if (kk === 1) {
     for(var elem of document.getElementsByClassName('article__left--item')){
