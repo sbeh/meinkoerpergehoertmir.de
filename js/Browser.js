@@ -16,13 +16,24 @@ function getBrowserId () {
 
     return nIdx;    
 }
-    
-//document.addEventListener("DOMContentLoaded", getBrowserId(), true)
+
 var kk = getBrowserId();
+
 if (kk === 1) {
-    var meinevariable = document.getElementsByClassName('article__left--item');
-    console.log(Object.meinevariable);
-    console.log(meinevariable);
+    //var meinevariable = document.getElementsByClassName('article__left--item');
+    //console.log(Object.meinevariable);
+    //console.log(meinevariable);
+    
+    var z=0 
+    for(var elem of document.getElementsByClassName('article__left--item')){
+        
+        console.log(elem + z);
+        z++; 
+    }
+       
+ 
+    
+    
     //for( var z=0 ; z < meinevariable ; z++){
       //  console.log('ksssnmnmsnmssnm'+z);
    // meinevariable.remove('article__left--item');
