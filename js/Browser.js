@@ -1,11 +1,5 @@
 'use strict'
 
-var meinArray = new Array('Element 1', 'Element 2', 'Element 3');
-    
-// gibt die aktuelle Länge (3) aus
-console.log(meinArray.length);
-
-
 function getBrowserId () {
 
     var
