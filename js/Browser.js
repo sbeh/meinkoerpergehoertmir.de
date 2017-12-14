@@ -1,5 +1,6 @@
 'use strict'
  
+console.log('Funktion geladen');
 var kk = 0;
 window.onload = function () {
      var kk = getBrowserId();
