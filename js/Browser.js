@@ -6,12 +6,12 @@ window.onload = function () {
  
      if (kk === 1) {
           
-       var allParas = document.getElementsByClassName('article__left--item');
+       var allParas = document.getElementsByClassName('section__innen');
           //var size = Object.keys(allParas);
           //var num = allParas.length;
      console.log(allParas);
-     allParas.remove('article__left--item');
-     allParas.add('useragent__firefox--item');
+     allParas[0].remove('article__left--item');
+     allParas[0].add('useragent__firefox--item');
  
      }
 
