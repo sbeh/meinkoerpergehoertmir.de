@@ -18,6 +18,59 @@
 
 }
 
+.galerie__link--a{border:3px solid #04678c}
+.galerie__link--a:hover{border:3px solid  rgb(234, 14, 116);}
+
+@media all{
+	.galerie__link--size{ width:100%; text-align:center};
+}
+
+@media all{
+	.galerie__img--size{ width:12em; margin-bottom:3em};
+}
+
+@media all{
+	.galerie__link--size1{ width:50%; text-align:center};
+}
+
+@media all{
+	.galerie__img--size1{ width:7em; margin-bottom:3em};
+}
+
+/* IE */
+@media screen\9, screen and (min-device-width: 767px){
+	.galerie__link--size{ width:50%; text-align:center};
+} 
+
+@media screen\9, screen and (min-device-width: 767px){
+	.galerie__img--size{ width:7em; margin-bottom:3em};
+} 
+
+@media only screen and (min-device-width : 768px) and  (max-device-width : 1024px){
+	.galerie__link--size1{ width:50%; text-align:center};
+}
+
+@media only screen and (min-device-width : 768px) and  (max-device-width : 1024px){
+	.galerie__img--size1{ width:7em; height:7em; margin-bottom:3em; };
+}
+
+@media only screen and (min-device-width : 300px) and  (max-device-width : 767px){
+	.galerie__link--size1{ width:100%; text-align:center};
+}
+
+@media only screen and (min-device-width : 300px) and  (max-device-width : 767px){
+	.galerie__img--size1{ width:12em;height:12em};
+}
+
+.innen__wrapper{
+	display:			flex;
+	flex-flow: 			row wrap;
+	margin-left:		3%;
+	margin-right:		3%;
+	font-size:          2rem;
+	text-align:         left;
+	word-wrap:          break-word;
+}
 
 #jquery-overlay {
 	position: absolute;
