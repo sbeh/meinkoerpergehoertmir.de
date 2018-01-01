@@ -100,8 +100,8 @@
 		
 
 	.container__width{
-		width:			100%;
-		text-align:		center;
+		width:	100%;
+		text-align: center;
 	}
 
 	.container__height--4-9em{ height:4.9em; }
@@ -112,7 +112,7 @@
 	.container__height--14-1em{height:11em}
 	.container__height--60-1em { height: 21em }	
 	.article__content--img1{height:	3.7em;}
-	
+
 }
 
 
