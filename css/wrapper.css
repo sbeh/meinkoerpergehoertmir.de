@@ -3,74 +3,57 @@
 	.wrapper{
 		display:			flex;
 		flex-flow: 			row wrap;
-		background: 		url('../img/bg_content.jpg');
-		background-size: 	contain;
-		margin-left:		3%;
-		margin-right:		3%;
+        background: 		url('../img/bg_content.jpg') #00a1dd;
+        background-size: 	contain;
+        margin-left:		2%;
+		margin-right:		5%;
+        margin-top:			0;
+		margin-bottom:		0;
+		flex-basis: 		95%;/*100%;*/
+		flex: 				1;
+		overflow:			hidden;
 	}
+	
+    .wrapper__left,
+	.wrapper__right{
+		background-size: 	contain;
+		overflow:			hidden;
+	}	 
 	
 	.wrapper__left{
-		width:				20%;
+		width:				30%;
 		background: 		url('../img/bg_menu.jpg');
-		background-size: 	contain;
-		color:				var(--fourthcolor,#ffffff);
-	}	
-
-	.left__difference--left{
-		margin-left:	var(--pimarydif,2%);
-	}
-	
+		color:				#ffffff;
+	}		
 	.wrapper__right{
-		width:			78%;
+		width:				70%;
+		color:				#000000;
 	}		
 	
 }
 
-@media only screen and (min-device-width : 901px)and (max-device-width : 960px){  
-	.wrapper__left {
-		width:		25%
+/* IE */
+/*@media screen\9, screen and (min-width: 410px){ 
+    .wrapper__left,
+    .wrapper__right{
+        width:			100%;
+    }
+}*/
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1023px){ 
+    .wrapper__left{
+        width:			40%;
 	}
-	.wrapper__right {
-		width:		65%
-	}
+    .wrapper__right{
+        width:			60%;
+    }
 }
 
-@media only screen and (min-device-width : 651px)and (max-device-width : 900px){  
-	.wrapper__left {
-		width:		32%
-	}
-	.wrapper__right {
-		width:		65%
-	}
-}
-
-@media only screen and (min-device-width : 491px)and (max-device-width : 650px){  
-	.wrapper__left,
-	.wrapper__right {
-		width:		100%
-	}
-	.left__difference--left{
-		margin-left:	0;
-	}
-}
-
-@media only screen and (min-device-width : 451px) and (max-device-width : 490px){ 
-	.wrapper__left,
-	.wrapper__right {
-		width:		100%
-	}
-	.left__difference--left{
-		margin-left:	0;
-	}
-}
-
-@media only screen and (min-device-width : 300px) and  (max-device-width : 450px){
-	.left__difference--left{
-		margin-left:	0;
-	}
-	
-	.wrapper__left,
-	.wrapper__right {
-		width:		100%
-	}
+ 
+@media only screen and (min-device-width : 300px) and  (max-device-width : 767px){
+    .wrapper__left,
+    .wrapper__right{
+        width:			100%;
+    }
 }

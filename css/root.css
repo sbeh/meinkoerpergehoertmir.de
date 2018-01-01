@@ -1,20 +1,21 @@
 :root {
-  --pimarycolor: 		#00a1dd;
+  --pimarycolor: 	  	#00a1dd;
   --secondarycolor: 	#ea0e74;
-  --thirdcolor: 		#04678c;
-  --fourthcolor:		#ffffff;
+  --thirdcolor: 	  	#04678c;
+  --fourthcolor:	  	#ffffff;
   
   
   --pimarydif: 			    2%;
   --secondarydif: 			0.15rem;
 
-  --device__standard--font:         2.5rem;
-  --device__standard--line-height : 4rem;
+  --device__standard--font:           2rem;
+  --device__standard--line-height :   4rem;
   
-  --device__300-450--font :         5rem;
-  --device__300-450--line-height :  13rem;
-  
-  
-  --device__300-450--font1 :         3rem;
-  --device__300-450--line-height1 :  5rem;
+  --device__300-450--font :           5rem;
+  --device__300-450--line-height :    13rem;
+    
+  --device__300-450--font1 :          3rem;
+  --device__300-450--line-height1 :   5rem;
+
+  --section__standard--abstand:       2.5rem;
 }

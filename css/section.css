@@ -1,0 +1,87 @@
+@media all{
+
+	.wrapper{
+		display:			flex;
+		flex-flow: 			row wrap;
+        background: 		url('../img/bg_content.jpg') red;
+        background-size: 	contain;
+        margin-left:		3%;
+		margin-right:		3%;
+        margin-top:			0;
+        margin-bottom:		0;
+	}
+	
+    .wrapper__left,
+	.wrapper__right{
+		background-size: 	contain;
+	}	 
+	
+	.wrapper__left{
+		width:				20%;
+		background: 		url('../img/bg_menu.jpg');
+		color:				#ffffff;
+	}		
+	.wrapper__right{
+		width:				78%;
+		color:				#000000;
+	}		
+	
+}
+
+@media only screen and (min-device-width : 901px)and (max-device-width : 960px){  
+	.wrapper__left {
+		width:		25%
+	}
+	.wrapper__right {
+		width:		65%
+	}
+}
+
+@media only screen and (min-device-width : 651px)and (max-device-width : 900px){  
+	.wrapper__left {
+		width:		32%
+	}
+	.wrapper__right {
+		width:		65%
+	}
+}
+
+@media only screen and (min-device-width : 491px)and (max-device-width : 650px){  
+	.wrapper__left,
+	.wrapper__right {
+		width:		100%
+	}
+	.left__difference--left{
+		margin-left:	0;
+	}
+}
+
+@media only screen and (min-device-width : 451px) and (max-device-width : 490px){ 
+	.wrapper__left,
+	.wrapper__right {
+		width:		100%
+	}
+	.left__difference--left{
+		margin-left:	0;
+	}
+}
+
+
+/* IE */
+@media screen\9, screen and (min-device-width: 300px){
+    .wrapper__left,
+    .wrapper__right{
+        width:			100%;
+    }
+}  
+
+@media only screen and (min-device-width : 300px) and  (max-device-width : 450px){
+	.left__difference--left{
+		margin-left:	0;
+	}
+	
+	.wrapper__left,
+	.wrapper__right {
+		width:		100%
+	}
+}

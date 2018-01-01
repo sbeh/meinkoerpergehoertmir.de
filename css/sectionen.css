@@ -1,52 +1,55 @@
 @media all{
 
-	.section{
-		padding-top:	2%;
-		padding-bottom:	2%;
-		width:			100%;
-	}
-	
-	.section__innen,
-	.section__image--pos{
-		text-align:		center;
-		margin-left:	5%;
-		margin-right:	5%;		
-	}
+    .section{ 
+        width:			100%;
+        margin-bottom:	1.8em;
+     }
 
-	.section__innen--middle{
-		text-align:		center;
-	}
-	
-	
+    .section__abstand--top{
+        padding-top:    4%;
+    } 
+    
+    .section__innen{
+        /* position innen mittig */
+        margin: 0 auto;
+        width:  90%; 
+        word-wrap:          break-word;
+    }
+
+    .section__innen--nav{
+        width:  100%; 
+    }
+    
+    .section1{width:100%; margin-bottom: 0.5em;} 
+    .section2{ margin-bottom:1.5em;margin-top:1.5em;line-height:300%;font-size:0.9em}
+    .section3{ font-size:0.9em;line-height:300%}
+    .section4{ font-size:1em;line-height:300%}
+    .section6{ font-size:1.1em;}
+    .section5{ font-size:1em;}
+    .section7{ font-size:1em}
+
+    .left__img--width{width:9em}
 }
 
+/* IE */
+/*@supports (-ms-accelerator:true) {    Edge*/
+    @media screen\9, screen and (max-device-width : 767px){
+    .section1{margin-bottom:	0.5em;} 
+    .section3{font-size:2em;}
+    .section6{font-size:1.1em; line-height:200%}
+    .section5{ font-size:2em;}
+    .section4{ font-size:1.1em;padding-top:1.8em}
+    .left__img--width{width:20em}
+} 
 
-@media (min-width: 950px) {
+@media only screen and (min-device-width : 768px) and (max-device-width : 1023px){ 
 	
+    .section{ margin-bottom:	1.8em;}
+    .left__img--width1{width:5em}
 }
 
-@media (min-width: 450px) and (max-width: 950px) {
-	
+@media only screen and (min-device-width : 300px) and  (max-device-width : 767px){
+    .section5{ font-size:0.8em; }
+    .left__img--width1{width:6em}
+    
 }
-
-@media (max-width: 450px) {
-
-}
-
-
-
-/**
- * Define the space for each grid item by declaring the grid
- * on the grid container.
- */
-#grid {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  grid-template-rows: auto 1fr auto;
-}
-
-#title    { grid-column: 1; grid-row: 1; }
-#score    { grid-column: 1; grid-row: 3; }
-#stats    { grid-column: 1; grid-row: 2; align-self: start; }
-#board    { grid-column: 2; grid-row: 1 / span 2; }
-#controls { grid-column: 2; grid-row: 3; justify-self: center; }

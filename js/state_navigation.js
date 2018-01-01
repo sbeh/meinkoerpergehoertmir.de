@@ -14,8 +14,6 @@ function verstecken() {
 	statusanzeigen.classList.add('button__anzeigen');
  }
 
-//var NavVerstecken = document.getElementById('nav_verstecken');
-//NavVerstecken.addEventListener ('click', verstecken, true);
 
 
 function anzeigen() {
@@ -32,6 +30,3 @@ function anzeigen() {
 	statusanzeigen.classList.remove('button__anzeigen');
 	statusanzeigen.classList.add('button__anzeigen--hidden');
  }
-
-//var NavAnzeigen = document.getElementById('nav_anzeigen');
-//NavAnzeigen.addEventListener ('click', anzeigen, true);
