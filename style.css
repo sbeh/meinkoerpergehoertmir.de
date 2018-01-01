@@ -6,13 +6,14 @@
 @import './css/base.css';
 @import './css/wrapper.css';
 @import './css/sectionen.css';
-@import './css/containergroessen.css'; 
-@import './css/form.css'; 
+@import './css/article.css';
+@import './css/containergroessen.css';
+@import './css/form.css';
 @import './css/img_content.css';
 @import './css/img.css'; 
-@import './css/img_size.css';
+/*@import './css/img_size.css';
 @import './css/img_pos.css';
-@import './css/alink.css';
+@import './css/alink.css';*/
 @import './css/button.css';
 @import './css/navi.css';
 

@@ -1,29 +1,27 @@
 @media all{
 
-	button[type=button]{
-		background-color:	var(--pimarycolor);
+	.button__fonzSize--prio1,
+	.button__fonzSize--standard{
+		background-color:	#00a1dd;
 		width:				100%;
-		font-size: 			80%;
-		line-height: 		300%;
+		padding-top: 		10%;
+		padding-bottom:		10%;
 		border:				0;
-		border-bottom:		1px solid var(--fourthcolor);
-		color:				var(--fourthcolor);
+		border-bottom:		1px solid #ffffff;
+		color:				#ffffff;
+		font-size: 			1.8em;
 	}
-	
+
 }
 
 
-@media (min-width: 950px) {
-	
-}
+/* IE */
+/*@supports (-ms-accelerator:true) {    Edge*/
+@media screen\9, screen and (min-width: 767px){ 
+	.button__fonzSize--standard{ font-size:	4em;}
+} 
 
-@media (min-width: 450px) and (max-width: 950px) {
-	
-}
 
-@media only screen and (min-device-width : 300px ) and (max-device-width : 450px){
-	button[type=button]{
-		font-size: 		var(--device__300-450--font1);
-		line-height: 		var(--device__300-450--line-height1);
-	}
+@media only screen and (min-device-width : 300px) and  (max-device-width : 767px){
+	.button__fonzSize--prio1{font-size:1.5em;}
 }

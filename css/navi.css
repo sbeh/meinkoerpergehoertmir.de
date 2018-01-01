@@ -1,56 +1,87 @@
 @media all{
 
-	nav{
-		cursor: 		pointer;
+	.nav__links{
+		text-align:		left;
+		width:			100%;
+		display:		inline-block;
+		border-bottom:	1px solid #ffffff;
+		color:			#ffffff;
+		padding-top: 	1.5em;
+		padding-bottom:	1.5em;
+		padding-left:	0.2em;
+		font-size:		1.75em;
+		text-decoration:none;
+		line-height:	2em;
 	}
 
-	nav ul{
-		margin:0;
-		padding:0;
+	.nav__links-1{
+		text-align:		left;
+		width:			100%;
+		display:		inline-block;
+		border-bottom:	1px solid #ffffff;
+		color:			#ffffff;
+		padding-top: 	1em;
+		padding-bottom:	1em;
+		padding-left:	0.2em;
+		font-size:		1.3em;	
+		text-decoration: none;
+		line-height:	2em;	
 	}
-
-	nav ul li{
-		list-style-type: none;
-		line-height:	var(--device__standard--line-height);
-	}
-	
-	.nav__links{ 
-		border-bottom:1px solid white;
-	}
-	
-	.nav__links span{
-		margin-left:	5%;
-		color:		#ffffff;
-		font-size: 	var(--standardfontsize);
-	}
-
-	.article__left--item{
-		line-height: 2.5rem;
-		text-align:center;
-	}
-	
-	.nav__status{
-		visibility:		visible;
-	}
-
 
 	.button__verstecken,
 	.button__anzeigen{
 		visibility:		hidden;
 		display:		none;
 	}	
+
+	a.nav__links:hover,
+	a.nav__links-1:hover,
+	a.nav__links:active,
+	a.nav__links-1:active,
+	a.nav__links:focus,
+	a.nav__links-1:focus{color:#acacac}
 }
 
-@media only screen and (min-device-width : 651px)and (max-device-width : 900px){  
+/*
+@media only screen and (min-device-width : 768px) and (max-device-width : 1023px){ 
+	
+	.nav__links{
+		text-align:		left;
+	}
+
+}
+*/
+
+/* IE */
+@media screen\9, screen and (min-device-width: 300px) and  (max-device-width : 767px){
+
+	.nav__status,
+	.button__verstecken,
+	.button__anzeigen{
+		display:		inline;
+		visibility:		visible;
+		text-align:		center;
+	}
+	
+	.nav__status--hidden,
+	.button__verstecken--hidden,
+	.button__anzeigen--hidden,
+	{
+		visibility:		hidden;
+		display:		none;
+	}
 		
-	nav {
-		font-size: 		120%;
-		line-height: 	250%;
+	.nav__links{
+		text-align:		center;
+		padding-top:	10%;
+		padding-bottom:	10%;
+		font-size:		4em;
 	}
 
-}
+} 
 
-@media only screen and (min-device-width : 451px) and (max-device-width : 650px){ 
+@media only screen and (min-device-width : 300px) and  (max-device-width : 767px){
+
 	.nav__status,
 	.button__verstecken,
 	.button__anzeigen{
@@ -58,56 +89,20 @@
 		visibility:		visible;
 		text-align:		center;
 	}
-
+	
 	.nav__status--hidden,
 	.button__verstecken--hidden,
 	.button__anzeigen--hidden{
 		visibility:		hidden;
 		display:		none;
 	}
-	
-	.article__left--item{
-		line-height:	normal;
-	}
-	
-	nav {
-		font-size: 		150%;
-		line-height: 	250%;
-	}
-}
 
-@media only screen and (min-device-width : 280px ) and (max-device-width : 450px){
-	.nav__status,
-	.button__verstecken,
-	.button__anzeigen{
-		display:		inline;
-		visibility:		visible;
+	.nav__links-1{
 		text-align:		center;
+		padding-left:	0;	
+		padding-top:	10%;
+		padding-bottom:	10%;
+		font-size:		1.5em;	
 	}
 
-	.nav__status--hidden,
-	.button__verstecken--hidden,
-	.button__anzeigen--hidden{
-		visibility:		hidden;
-		display:		none;
-	}
-	
-
-	.nav__links span{
-		margin-left:	0;
-		font-size: 	var(--device__300-450--font);
-	}
-
-	nav ul{
-		background-color: var(--secondarycolor);
-	}
-
-	nav ul li{
-		line-height:	var(--device__300-450--line-height);
-	}
-	
-	.article__left--item{
-		font-size: 		var(--device__300-450--font1);
-		line-height: 		var(--device__300-450--line-height1);
-	}
 }

@@ -1,13 +1,367 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlms="http://www.w3.org/1999/xhtml">
-	<head>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<script src='js/init.js'></script>
+<!DOCTYPE html>
+
+<html lang="de">
+  	<head>
+    	<meta charset="utf-8">	
+		<link rel='stylesheet' type='text/css' href='style.css'>
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" type="text/javascript"></script>
+	<!--	<script>
+			if (typeof $.jQuery === 'undefined') {
+				document.write('<script src="http://example.com/jquery.min.js">\x3C/script>');
+			}
+		</script>-->
+		<script src='js/state_navigation.js'></script>
 	</head>
 	<body>
-		<div class="wrapper">
-			<replace>wrapper_left</replace>
-			<replace>wrapper_right_links</replace>
+
+		<div class="wrapper" style="width:95%">
+
+
+                <div class="wrapper__left">
+                        
+                            <section class="section">				
+                                <nav class="nav__status--hidden" id="nav">
+                                    <div class="section__innen--nav">
+                                                
+                                        <a href="index.html" class="nav__links" id="nav_a1">Home</a>
+                                        <a href="definition.html" class="nav__links" id="nav_a2">Sexueller Missbrauch</a>
+                                        <a href="stueck.html" class="nav__links" id="nav_a3">Das St&uuml;ck</a>		
+                                        <a href="eurebilder.html" class="nav__links" id="nav_a4">Eure Bilder</a>
+                                        <a href="songs.html" class="nav__links" id="nav_a5">Songs</a>
+                                        <a href="materialien.html" class="nav__links" id="nav_a6">Materialien</a>
+                                        <a href="links.html" class="nav__links" id="nav_a7">Links</a>
+                                        <a href="kontakt.html" class="nav__links" id="nav_a8">Kontakt</a>
+                                        <div class="button__verstecken">
+                                            <button type="button" id="nav_verstecken"  onclick='verstecken()' class="button__fonzSize--standard">
+                                                Navigation verstecken
+                                            </button>		
+                                        </div>
+                                    </div>	
+                                </nav>
+                                <nav class="button__anzeigen" id="nav_anzeigen">
+                                    <div class="section__innen--nav">
+                                        <button type="button" class="button__fonzSize--standard" id="button__standard" onclick='anzeigen()'>Navigation anzeigen</button>
+                                    </div>
+                                </nav>
+                            </section>
+                                        
+                            <section class="section article__abstand--top">
+                                <div class="section__innen">
+                                    <div class="left__txt--size" id="left__txt-size1">
+                                        <article style="width:100%">
+                                            Willst du vorab Informationen? Klicke hier:
+                                        </article>
+                                    </div>
+                                </div>
+                            </section>
+            
+                            <section class="section">
+                                <div class="section__innen"  style="text-align:center">
+                                    <a href="http://www.tpw-osnabrueck.de/" target="_blank">
+                                        <img src="./img/tpw_logo.jpg" id="left__img-width1" 
+                                        class="left__img--width">
+                                    </a>
+                                </div>
+                            </section>
+                    
+                            <section class="section article__abstand--top">
+                                <div class="section__innen">
+                                    <div class="left__txt--size" id="left__txt-size2">
+                                        <article style="width:100%">
+                                            Oder doch die Nummer <b>gegen</b> Kummer?
+                                        </article>
+                                    </div>
+                                </div>
+                            </section>
+                    
+                            <section class="section">
+                                <div class="section__innen">
+                                    <div style="text-align:center">
+                                        <a href="https://www.nummergegenkummer.de/" target="_blank">
+                                            <img class="left__img--width" id="left__img-width2" 
+                                            src="./img/nummer-gegen-kummer.jpg">
+                                        </a>
+                                    </div>
+                                </div>
+                            </section>
+            
+                            <section class="section">
+                                <div class="section__innen">
+                                    <div class="left__txt--size" id="left__txt-size3">
+                                        <article style="width:100%">
+                                                        Montags bis Samstags von 14 bis 20 Uhr
+                                                </article>
+                                            </div>
+                                        </div>
+                            </section>
+                    
+                            <section id="left__abstand--top" class="section article__abstand--top">
+                                <div class="section__innen">
+                                    <div class="left__txt--size" id="left__txt-size4">
+                                        <article style="width:100%">
+                                            Oder vielleicht doch lieber schreiben?
+                                        </article>
+                                    </div>
+                                </div>
+                            </section>
+                    
+                            <a href="mailto:kids@tpw-osnabrueck.de" class="left__link--a">
+                                <section class="section">
+                                    <div class="section__innen">
+                                        <div class="left__txt--size" id="left__txt-size5">
+                                            <article id="left__link-size1" class="left__link--size1">
+                                                <b>kids@tpw-osnabrueck.de</b>
+                                            </article>
+                                        </div>
+                                    </div>
+                                </section>
+                            </a>
+                            
+                        </div><!-- .wrapper__left -->
+            
+
+			<div class="wrapper__right">
+
+				<section class="section">
+				    <div class="section__innen">
+						<article class="article__ohne--Bild article__abstand--top">
+									<div id="article__content--img" class="article__content--img">
+										<div class="img--mein-koerper-gehoert-mir content__img--details"></div>
+									</div>
+					    </article>
+					</div>
+				</section>
+		
+                <section class="section">
+                    <div class="section__innen">
+                        <div class="innen__position--right">                
+                            <img id="img--links1" src="./img/links.jpg" class="container__height--14em">	
+                        </div>
+                    </div>
+                </section>      
+                
+                <section class="section">
+                    <div class="section__innen">
+                        <div id="innen__headline1" class="innen__headline--color">
+                            <b>Hilfe f&uuml;r Kinder</b>
+                        </div>
+                    </div>
+                </section>
+
+                <a href="http://www.kinderundjugendtelefon.de" target="_blank" class="right__link--a">
+                    <section class="section">
+                        <div class="section__innen">
+                            <div class="article__abstand--top">
+                                <article id="innen__link-txt1" class="innen__link--size2" >
+                                    kinderundjugendtelefon.de
+                                </article>
+                            </div>
+                        </div>
+                    </section>
+                </a>
+
+                <a href="http://www.dunkelziffer.de" target="_blank" class="right__link--a">
+                    <section class="section">
+                        <div class="section__innen">
+                            <div class="article__abstand--top">
+                                <article id="innen__link-txt2" class="innen__link--size2" >
+                                        www.dunkelziffer.de
+                                </article>
+                            </div>
+                        </div>
+                    </section>
+                </a>
+                <br><br>
+                <section class="section">
+                    <div class="section__innen">
+                        <div id="innen__headline2" class="innen__headline--color">
+                            <b>Suchmaschinen &amp; Portale</b>
+                        </div>
+                    </div>
+                </section>
+
+                <a href="http://www.blinde-kuh.de" target="_blank" class="right__link--a">
+                    <section class="section">
+                        <div class="section__innen">
+                            <div class="article__abstand--top">
+                                <article id="innen__link-txt3" class="innen__link--size2" >
+                                    www.blinde-kuh.de
+                                </article>
+                            </div>
+                        </div>
+                    </section>
+                </a>
+
+                <a href="http://www.kindernetz.de" target="_blank" class="right__link--a">
+                    <section class="section">
+                        <div class="section__innen">
+                            <div class="article__abstand--top">
+                                <article id="innen__link-txt4" class="innen__link--size2" >
+                                    www.kindernetz.de
+                                </article>
+                            </div>
+                        </div>
+                    </section>
+                </a>
+
+                <a href="http://www.multikids.de" target="_blank" class="right__link--a">
+                    <section class="section">
+                        <div class="section__innen">
+                            <div class="article__abstand--top">
+                                <article id="innen__link-txt5" class="innen__link--size2" >
+                                    www.multikids.de
+                                </article>
+                            </div>
+                        </div>
+                    </section>
+                </a>
+
+                <a href="http://www.internet-abc.de" target="_blank" class="right__link--a">
+                    <section class="section">
+                        <div class="section__innen">
+                            <div class="article__abstand--top">
+                                <article id="innen__link-txt6" class="innen__link--size2" >
+                                    www.internet-abc.de
+                                </article>
+                            </div>
+                        </div>
+                    </section>
+                </a>
+                <br><br>  
+                <section class="section">
+                    <div class="section__innen">
+                        <div id="innen__headline3" class="innen__headline--color">
+                            <b>Chatten &amp; Internet-F&uuml;hrerschein</b>
+                        </div>
+                    </div>
+                </section>
+               
+                <a href="http://www.internet-abc.de" target="_blank" class="right__link--a">
+                    <section class="section">
+                        <div class="section__innen">
+                            <div class="article__abstand--top">
+                                <article id="innen__link-txt7" class="innen__link--size2" >
+                                    www.internet-abc.de
+                                </article>
+                            </div>
+                        </div>
+                    </section>
+                </a>
+                <a href="http://www.seitenstark.de" target="_blank" class="right__link--a">
+                    <section class="section">
+                        <div class="section__innen">
+                            <div class="article__abstand--top">
+                                <article id="innen__link-txt8" class="innen__link--size2" >
+                                    www.seitenstark.de
+                                </article>
+                            </div>
+                        </div>
+                    </section>
+                </a>
+                <a href="http://www.blinde-kuh.de" target="_blank" class="right__link--a">
+                    <section class="section">
+                        <div class="section__innen">
+                            <div class="article__abstand--top">
+                                <article id="innen__link-txt9" class="innen__link--size2" >
+                                    www.blinde-kuh.de
+                                </article>
+                            </div>
+                        </div>
+                    </section>
+                </a>
+                <br><br>    
+                <section class="section">
+                    <div class="section__innen">
+                        <div id="innen__headline4" class="innen__headline--color">
+                            <b>Information &amp; Wissen</b>
+                        </div>
+                    </div>
+                </section>                    
+
+                <a href="http://www.geolino.de" target="_blank" class="right__link--a">
+                    <section class="section">
+                        <div class="section__innen">
+                            <div class="article__abstand--top">
+                                <article id="innen__link-txt10" class="innen__link--size2" >
+                                    www.geolino.de
+                                </article>
+                            </div>
+                        </div>
+                    </section>
+                </a>
+                                                    
+                <a href="http://www.internauten.de" target="_blank" class="right__link--a">
+                    <section class="section">
+                        <div class="section__innen">
+                            <div class="article__abstand--top">
+                                <article id="innen__link-txt11" class="innen__link--size2" >
+                                    www.internauten.de
+                                </article>
+                            </div>
+                        </div>
+                    </section>
+                </a>
+
+                <a href="http://www.sowieso.de" target="_blank" class="right__link--a">
+                    <section class="section">
+                        <div class="section__innen">
+                            <div class="article__abstand--top">
+                                <article id="innen__link-txt12" class="innen__link--size2" >
+                                    www.sowieso.de
+                                </article>
+                            </div>
+                        </div>
+                    </section>
+                </a> 
+                
+                <a href="http://www.zzzebra.de" target="_blank" class="right__link--a">
+                    <section class="section">
+                        <div class="section__innen">
+                            <div class="article__abstand--top">
+                                <article id="innen__link-txt13" class="innen__link--size2" >
+                                    www.zzzebra.de
+                                </article>
+                            </div>
+                        </div>
+                    </section>
+                </a>  
+                <br><br>
+                <section class="section">
+                    <div class="section__innen">
+                        <div id="innen__headline5" class="innen__headline--color">
+                            <b>Mitmachen &amp; Spiele</b>
+                        </div>
+                    </div>
+                </section>
+
+                <a href="http://www.lizzynet.de" target="_blank" class="right__link--a">
+                    <section class="section">
+                        <div class="section__innen">
+                            <div class="article__abstand--top">
+                                <article id="innen__link-txt14" class="innen__link--size2" >
+                                    www.lizzynet.de
+                                </article>
+                            </div>
+                        </div>
+                    </section>
+                </a>
+
+                <a href="http://www.internet-abc.de" target="_blank" class="right__link--a">
+                    <section class="section">
+                        <div class="section__innen">
+                            <div class="article__abstand--top">
+                                <article id="innen__link-txt15" class="innen__link--size2" >
+                                    www.internet-abc.de
+                                </article>
+                            </div>
+                        </div>
+                    </section>
+                </a>
+
+            </div><!-- .wrapper__right -->
+
 		</div>
+		<script src='js/setClass__Body--useragent.js'></script>
 	</body>
 </html>

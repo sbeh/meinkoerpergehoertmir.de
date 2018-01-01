@@ -1,25 +1,396 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlms="http://www.w3.org/1999/xhtml">
-	<head>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<script src='js/init.js'></script>
+<!DOCTYPE html>
+
+<html lang="de">
+  	<head>
+    	<meta charset="utf-8">	
+		<link rel='stylesheet' type='text/css' href='style.css'>
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" type="text/javascript"></script>
+	<!--	<script>
+			if (typeof $.jQuery === 'undefined') {
+				document.write('<script src="http://example.com/jquery.min.js">\x3C/script>');
+			}
+		</script>-->
+		<script src='js/state_navigation.js'></script>
 	</head>
 	<body>
-		<div class="wrapper">
-			<replace>wrapper_left</replace>				
-			<replace>wrapper_right_contact</replace>
-		</div>
-		<footer class="wrapper">
-			<div class="wrapper__left left__difference--left"></div>
+
+		<div class="wrapper" style="width:95%">
+
+			<div class="wrapper__left">
+            
+                <section class="section">				
+                    <nav class="nav__status--hidden" id="nav">
+                        <div class="section__innen--nav">
+                                    
+                            <a href="index.html" class="nav__links" id="nav_a1">Home</a>
+                            <a href="definition.html" class="nav__links" id="nav_a2">Sexueller Missbrauch</a>
+                            <a href="stueck.html" class="nav__links" id="nav_a3">Das St&uuml;ck</a>		
+                            <a href="eurebilder.html" class="nav__links" id="nav_a4">Eure Bilder</a>
+                            <a href="songs.html" class="nav__links" id="nav_a5">Songs</a>
+                            <a href="materialien.html" class="nav__links" id="nav_a6">Materialien</a>
+                            <a href="links.html" class="nav__links" id="nav_a7">Links</a>
+                            <a href="kontakt.html" class="nav__links" id="nav_a8">Kontakt</a>
+                            <div class="button__verstecken">
+                                <button type="button" id="nav_verstecken"  onclick='verstecken()' class="button__fonzSize--standard">
+                                    Navigation verstecken
+                                </button>		
+                            </div>
+                        </div>	
+                    </nav>
+                    <nav class="button__anzeigen" id="nav_anzeigen">
+                        <div class="section__innen--nav">
+                            <button type="button" class="button__fonzSize--standard" id="button__standard" onclick='anzeigen()'>Navigation anzeigen</button>
+                        </div>
+                    </nav>
+                </section>
+                            
+                <section class="section article__abstand--top">
+                    <div class="section__innen">
+                        <div class="left__txt--size" id="left__txt-size1">
+                            <article style="width:100%">
+                                Willst du vorab Informationen? Klicke hier:
+                            </article>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="section">
+                    <div class="section__innen"  style="text-align:center">
+                        <a href="http://www.tpw-osnabrueck.de/" target="_blank">
+                            <img src="./img/tpw_logo.jpg" id="left__img-width1" 
+                            class="left__img--width">
+                        </a>
+                    </div>
+                </section>
+        
+                <section class="section article__abstand--top">
+                    <div class="section__innen">
+                        <div class="left__txt--size" id="left__txt-size2">
+                            <article style="width:100%">
+                                Oder doch die Nummer <b>gegen</b> Kummer?
+                            </article>
+                        </div>
+                    </div>
+                </section>
+        
+                <section class="section">
+                    <div class="section__innen">
+                        <div style="text-align:center">
+                            <a href="https://www.nummergegenkummer.de/" target="_blank">
+                                <img class="left__img--width" id="left__img-width2" 
+                                src="./img/nummer-gegen-kummer.jpg">
+                            </a>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="section">
+                    <div class="section__innen">
+                        <div class="left__txt--size" id="left__txt-size3">
+                            <article style="width:100%">
+                                            Montags bis Samstags von 14 bis 20 Uhr
+                                    </article>
+                                </div>
+                            </div>
+                </section>
+        
+                <section id="left__abstand--top" class="section article__abstand--top">
+                    <div class="section__innen">
+                        <div class="left__txt--size" id="left__txt-size4">
+                            <article style="width:100%">
+                                Oder vielleicht doch lieber schreiben?
+                            </article>
+                        </div>
+                    </div>
+                </section>
+        
+                <a href="mailto:kids@tpw-osnabrueck.de" class="left__link--a">
+                    <section class="section">
+                        <div class="section__innen">
+                            <div class="left__txt--size" id="left__txt-size5">
+                                <article id="left__link-size1" class="left__link--size1">
+                                    <b>kids@tpw-osnabrueck.de</b>
+                                </article>
+                            </div>
+                        </div>
+                    </section>
+                </a>
+            	
+		    </div><!-- .wrapper__left -->
+
 			<div class="wrapper__right">
 
 				<section class="section">
+				    <div class="section__innen">
+						<article class="article__ohne--Bild article__abstand--top">
+									<div id="article__content--img" class="article__content--img">
+										<div class="img--mein-koerper-gehoert-mir content__img--details"></div>
+									</div>
+                        </article>
+					</div>
+				</section>
+
+
+                  <section class="section">
+                    <div class="section__innen">                
+                        <div class="innen__position--right">                
+                            <img id="img--links1" src="./img/kontakt.jpg" class="container__height--14em">	
+                        </div>
+                    </div>
+                </section>                
+
+                <section class="section">
+                    <div class="section__innen">   
+                        <div class="article__ohne--Bild" style="display:inline-flex;">
+                            <article id="form__size-hinweis" class="font__size--hinweis"><b>          
+                            Bitte nennt uns eure Email, damit wir auch antworten können.
+                            </b></article>
+                        </div>
+                    </div>
+                </section>   
+
+              <section class="section">
+                    <div class="section__innen">
+                        <article class="article__ohne--Bild">   
+                        
+                            <form action="http://www.tpw-osnabrueck.de/cgi-bin/formmailer.pl" method="post" name="Kontaktformular">
+                            <label class="label">Dein Name:</label>
+                            <input id="form__size-input1" class="input font__size--input" placeholder="Trage hier deinen Namen ein." name="Name" tabindex="1" type="text"/>
+                            <label class="label">E-Mail:</label>
+                            <input id="form__size-input2" class="input font__size--input" placeholder="Trage hier deine E-Mail ein." name="E-Mail" tabindex="2" type="text"/>
+                            <label class="label">Schule:</label>
+                            <input id="form__size-input3" class="input font__size--input" placeholder="Trage hier deine Schule ein." name="Schule" tabindex="3" type="text"/>
+                            <label class="label">F&uuml;r:</label>
+                            <input id="form__size-input4" class="input font__size--input" placeholder="Wer soll deine Nachricht lesen?" name="Für" tabindex="4" type="text"/>
+                            <label class="label">Nachricht:</label>
+                            <textarea id="form__size-textarea" name="Nachricht" rows="9" tabindex="5" class="textarea font__size--input" placeholder="Was magst du uns mitteilen?"></textarea>
+                            <input id="form__size-submit" class="font__size--input" name="Senden" value="Senden" tabindex="6" type="submit">
+                            <input name="recipient" value="kids@tpw-osnabrueck.de" type="hidden">
+                            <input name="subject" value="Nachricht Website-Formular Kids" type="hidden">
+                            <input name="redirect" value="http://www.tpw-osnabrueck.de/bestaetigung.html" type="hidden">
+                            </form>
+
+                        </article>
+                    </div>
+                </section>      
+ 
+                <section class="section">
+                        <div class="section__innen">
+                            <hr>
+                        </div>
+                </section>               
+                
+                <section id="section__abstand-top11" class="article__abstand--top3">
+                    <div class="section__innen">
+                        <article class="article__ohne--Bild">
+                            Wenn Du Probleme hast und Hilfe brauchst:
+                        </article>
+                    </div>
+                </section>	
+
+                <section class="article__abstand--top3">
+                        <div class="section__innen">
+                            <div class="article__mit--Bild">
+                                <article>
+                                    <a href="https://www.nummergegenkummer.de/">
+                                        <img id="img--stueck3" src="./img/nummer-gegen-kummer.jpg" 
+                                         class="container__float--left1 container__width--8-1em">
+                                    </a>
+                                    <div>
+                                        Montags bis Samstags von 14 bis 20 Uhr
+                                    </div>
+                                    <div>
+                                        Manche Kinder m&ouml;chten ihre Probleme nicht so gern am Telefon besprechen. Die <b>NummergegenKummer</b> bietet Dir auch eine kostenlose Beratung im Internet an.
+                                    </div>                                
+                                </article>
+                            </div>
+                        </div>
+                </section> 
+
+                <section class="article__abstand--top3">
+                        <div class="section__innen">
+                            <div class="article__mit--Bild">
+                                <article>
+                                    <a href="https://www.nummergegenkummer.de/?id=/de/index/kinder_und_jugendtelefon/email-beratung.htm" target="_blank">
+                                        <img id="img--stueck4" src="./img/e-mail-beratung.png"
+                                            class="container__float--right1 container__width--8-1em">
+                                    </a>
+                                    Damit Du auch hier anonym bleiben kannst, meldest Du Dich in dem passwortgesch&uuml;tzten Bereich an:
+                                </article>
+                            </div>
+                        </div>
+                </section>
+    
+                <section class="article__abstand--top3">
+                    <div class="section__innen">
+                        <hr>
+                    </div>
+                </section>                 
+            
+                <section id="section__abstand-top2" class="section3 article__abstand--top3">
+                    <div class="section__innen">
+                        <article >
+                                <b>IMPRESSUM</b>	
+                        </article>
+                    </div>
+                </section>            
+
+                <section id="section__abstand-top4" class="section6 article__abstand--top3">
+                        <div class="section__innen">	
+                            <b>theaterp&auml;dagogische werkstatt gGmbH</b>
+                        </div>
+                </section>
+    
+                <section id="section__abstand-txt1" class="section4">
+                    <div class="section__innen">
+                            Lange Str. 15/17  
+                        </div> 
+                </section>
+    
+                <section id="section__abstand-txt2" class="section4">
+                    <div class="section__innen">
+                            49080 Osnabr&uuml;ck              
+                    </div>
+                </section>                
+ 
+                <section id="section__abstand-top5" class="section4">
+                        <div class="section__innen">	
+                            <article>Fax: 0541 / 5805463-33</article>               
+                        </div>
+                </section>
+    
+                <section  id="section__abstand-txt3" class="section4">
+                        <div class="section__innen"><article>Fon: 0541 / 5805463-0</article></div>
+                </section>
+    
+                <a href="mailto:kontakt@tpw-osnabrueck.de" target="_blank" class="right__link--a">
+                        <section  id="section__abstand-txt4" class="section2">
+                            <div class="section__innen">                                   
+                                <article>
+                                    <div id="artikel__size-1" class="innen__link--size4">
+                                        E-Mail: kontakt@tpw-osnabrueck.de
+                                    </div>
+                                </article>         
+                            </div>
+                        </section>
+                </a>
+        
+                <a href="http://www.tpw-osnabrueck.de" target="_blank" class="right__link--a">
+                        <section  id="section__abstand-txt5" class="section2">
+                            <div class="section__innen">	                                   
+                                <article id="artikel__size-2" class="innen__link--size4">
+                                    Website: www.tpw-osnabrueck.de
+                                </article>           
+                            </div>
+                        </section>
+                </a>
+ 
+                <section id="section__abstand-top6" class="section6 article__abstand--top3">
+                        <div class="section__innen">	                                   
+                            <article>
+                                <b>Vertretungsberechtigte Gesch&auml;ftsf&uuml;hrung und inhaltlich verantwortlich gem&auml;&szlig; § 6 Abs.1 MDStV und § 8 Abs.1 TDG</b>
+                            </article>          
+                        </div>
+                </section>
+    
+                <section  id="section__abstand-txt7" class="section4">
+                        <div class="section__innen">	                                   
+                            <article> 		
+                                Anna Pallas, Reinhard Gesse
+                            </article>           
+                        </div>
+                </section>
+    
+                <section id="section__abstand-top7" class="section4 article__abstand--top3">
+                        <div class="section__innen">
+                            <article>Registergericht Amtsgericht Osnabr&uuml;ck</article>
+                        </div>
+                </section>	
+    
+                <section  id="section__abstand-txt8" class="section4">
+                        <div class="section__innen">
+                            <article>Registernummer HR B 19324</article>
+                        </div>
+                </section>	
+
+
+                <section  id="section__abstand-txt9" class="section4">
+                        <div class="section__innen">
+                            <article>Steuernummer 66/270/09130</article>	
+                        </div>
+                </section>	                    
+                        
+                <section id="section__abstand-top8" class="section6 article__abstand--top3">
+                        <div class="section__innen">
+                            <article><b>Web-Design</b></article>	
+                        </div>
+                </section>
+    
+                <section  id="section__abstand-txt10" class="section4">
+                        <div class="section__innen">
+                            <article>Marion Lustig</article>	
+                        </div>
+                </section>	
+    
+                <a href="http://www.lustigonline.de" class="right__link--a">
+                        <section  id="section__abstand-txt11" class="section2">
+                            <div class="section__innen">
+                                <article id="artikel__size-3" class="innen__link--size4">
+                                    www.lustigonline.de
+                                </article>	
+                            </div>
+                        </section>
+                </a>                
+ 
+                <section id="section__abstand-top9" class="section6 article__abstand--top3">
+                        <div class="section__innen">
+                            <article><b>Illustrationen</b></article>	
+                        </div>
+                </section>	                
+    
+                <section  id="section__abstand-txt12" class="section4">
+                        <div class="section__innen">
+                            <article>Merlin Durst</article>
+                        </div>
+                </section>
+    
+                <a href="http://www.merlindurst.de" target="_blank" class="right__link--a">
+                        <section  id="section__abstand-txt13" class="section2">
+                            <div class="section__innen">
+                                <article id="artikel__size-4" class="innen__link--size4">
+                                    www.merlindurst.de
+                                </article>	
+                            </div>
+                        </section>
+                </a>
+                                
+                <section id="section__abstand-top10" class="section6 article__abstand--top3">
+                        <div class="section__innen">
+                            <article><b>Copyright</b></article>
+                        </div>
+                </section>	 
+                
+                <section  id="section__abstand-txt14" class="section7">
+                        <div class="section__innen">
+                            <article>
+                                Jedes Website-Design, jeder Text, alle Grafiken, jede Auswahl bzw. jedes Layout unterliegen dem Copyright der theaterp&auml;dagogische werkstatt gGmbH. ALLE RECHTE VORBEHALTEN. Das Kopieren oder die Reproduktion (inklusive des Ausdrucks auf Papier) der gesamten Website bzw. von Teilen dieser Website werden nur zum pers&ouml;nlichen Gebrauch gestattet.
+                            </article>
+                        </div>
+                </section>
+
+
+				<section id="section__abstand-top12" class="section6 article__abstand--top3">
 					<div class="section__innen">
 						<article id="ausgabe"></article>
 					</div>
 				</section>	
-				<script src="./js/date.js"></script>				
-			</div>
-		</footer>
+				<script src="./js/date.js"></script>	                
+            
+            </div><!-- .wrapper__right -->
+
+        
+        </div>
+		<script src='js/setClass__Body--useragent.js'></script>
 	</body>
 </html>
